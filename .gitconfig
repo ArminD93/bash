@@ -1,0 +1,7 @@
+[user]
+	name = ArminD93
+	email = armin.derencz@gmail.com
+[core]
+	editor = nano
+[merge]
+	tool = vimdiff

@@ -1,0 +1,2189 @@
+   #alternate Edit this page Wikipedia (en)
+
+Internet of things
+
+   From Wikipedia, the free encyclopedia
+   Jump to: navigation, search
+   This article has multiple issues. Please help improve it or discuss
+   these issues on the talk page. (Learn how and when to remove these
+   template messages)
+   This article needs additional citations for verification. Please help
+   improve this article by adding citations to reliable sources. Unsourced
+   material may be challenged and removed. (May 2017) (Learn how and when
+   to remove this template message)
+   This article needs attention from an expert on the subject. Please add
+   a reason or a talk parameter to this template to explain the issue with
+   the article. Consider associating this request with a WikiProject. (May
+   2017)
+   (Learn how and when to remove this template message)
+   Drawing representing the Internet of things (IoT).
+
+   The Internet of things (IoT) is the network of physical devices,
+   vehicles, home appliances, and other items embedded with electronics,
+   software, sensors, actuators, and network connectivity which enable
+   these objects to connect and exchange data.^[1]^[2]^[3] Each thing is
+   uniquely identifiable through its embedded computing system but is able
+   to inter-operate within the existing Internet infrastructure. Experts
+   estimate that the IoT will consist of about 30 billion objects by
+   2020.^[4]
+
+   The IoT allows objects to be sensed or controlled remotely across
+   existing network infrastructure,^[5] creating opportunities for more
+   direct integration of the physical world into computer-based systems,
+   and resulting in improved efficiency, accuracy and economic benefit in
+   addition to reduced human intervention.^[6]^[7]^[8]^[9] When IoT is
+   augmented with sensors and actuators, the technology becomes an
+   instance of the more general class of cyber-physical systems, which
+   also encompasses technologies such as smart grids, virtual power
+   plants, smart homes, intelligent transportation and smart cities.
+
+   "Things", in the IoT sense, can refer to a wide variety of devices such
+   as heart monitoring implants, biochip transponders on farm animals,
+   cameras streaming live feeds of wild animals in coastal waters,^[10]
+   automobiles with built-in sensors, DNA analysis devices for
+   environmental/food/pathogen monitoring,^[11] or field operation devices
+   that assist firefighters in search and rescue operations.^[12] Legal
+   scholars suggest regarding "things" as an "inextricable mixture of
+   hardware, software, data and service".^[13]
+
+   These devices collect useful data with the help of various existing
+   technologies and then autonomously flow the data between other
+   devices.^[14]
+
+   The term "the Internet of things" was coined by Kevin Ashton of Procter
+   & Gamble, later MIT's Auto-ID Center, in 1999.^[15]
+
+Contents
+
+     * 1 History
+     * 2 Applications
+          + 2.1 Consumer application
+               o 2.1.1 Smart Home
+                    # 2.1.1.1 Applications
+          + 2.2 Enterprise
+               o 2.2.1 Media
+          + 2.3 Infrastructure Management
+               o 2.3.1 Manufacturing
+               o 2.3.2 Agriculture
+               o 2.3.3 Energy management
+               o 2.3.4 Environmental monitoring
+               o 2.3.5 Building and home automation
+               o 2.3.6 Metropolitan scale deployments
+          + 2.4 Other Fields of Application
+               o 2.4.1 Medical and healthcare
+               o 2.4.2 Transportation
+     * 3 Trends and characteristics
+          + 3.1 Intelligence
+          + 3.2 Architecture
+               o 3.2.1 Network architecture
+          + 3.3 Complexity
+          + 3.4 Size considerations
+          + 3.5 Space considerations
+          + 3.6 A Solution to "basket of remotes"
+     * 4 Frameworks
+     * 5 Standards and standards organizations
+     * 6 Enabling technologies for IoT
+          + 6.1 Addressability
+          + 6.2 Short-range wireless
+          + 6.3 Medium-range wireless
+          + 6.4 Long-range wireless
+          + 6.5 Wired
+     * 7 Simulation
+     * 8 Politics and civic engagement
+     * 9 Government regulation on IoT
+     * 10 Criticism and controversies
+          + 10.1 Platform fragmentation
+          + 10.2 Privacy, autonomy, and control
+          + 10.3 Data storage and analytics
+          + 10.4 Security
+          + 10.5 Design
+          + 10.6 Environmental sustainability impact
+          + 10.7 Intentional obsolescence of devices
+          + 10.8 Confusing terminology
+     * 11 IoT adoption barriers
+          + 11.1 Lack of interoperability and unclear value propositions
+          + 11.2 Privacy and security concerns
+          + 11.3 Traditional governance structures
+     * 12 See also
+     * 13 References
+     * 14 Bibliography
+     * 15 External links
+
+History[edit]
+
+   As of 2016^[update], the vision of the Internet of things has evolved
+   due to a convergence of multiple technologies, including ubiquitous
+   wireless communication, real-time analytics, machine learning,
+   commodity sensors, and embedded systems.^[12] This means that the
+   traditional fields of embedded systems, wireless sensor networks,
+   control systems, automation (including home and building automation),
+   and others all contribute to enabling the Internet of things.^[16]
+
+   The concept of a network of smart devices was discussed as early as
+   1982, with a modified Coke machine at Carnegie Mellon University
+   becoming the first Internet-connected appliance,^[17] able to report
+   its inventory and whether newly loaded drinks were cold.^[18] Mark
+   Weiser's seminal 1991 paper on ubiquitous computing, "The Computer of
+   the 21st Century", as well as academic venues such as UbiComp and
+   PerCom produced the contemporary vision of IoT.^[19]^[20] In 1994 Reza
+   Raji described the concept in IEEE Spectrum as "[moving] small packets
+   of data to a large set of nodes, so as to integrate and automate
+   everything from home appliances to entire factories".^[21] Between 1993
+   and 1996 several companies proposed solutions like Microsoft's at Work
+   or Novell's NEST. However, only in 1999 did the field start gathering
+   momentum. Bill Joy envisioned Device to Device (D2D) communication as
+   part of his "Six Webs" framework, presented at the World Economic Forum
+   at Davos in 1999.^[22]
+
+   The concept of the Internet of things became popular in 1999, through
+   the Auto-ID Center at MIT and related market-analysis
+   publications.^[23] Radio-frequency identification (RFID) was seen by
+   Kevin Ashton (one of the founders of the original Auto-ID Center) as a
+   prerequisite for the Internet of things at that point.^[24] Ashton
+   prefers the phrase "Internet for things."^[25] If all objects and
+   people in daily life were equipped with identifiers, computers could
+   manage and inventory them.^[26]^[27]^[28] Besides using RFID, the
+   tagging of things may be achieved through such technologies as near
+   field communication, barcodes, QR codes and digital
+   watermarking.^[29]^[30]
+
+   In its original interpretation,^[when?] one of the first consequences
+   of implementing the Internet of things by equipping all objects in the
+   world with minuscule identifying devices or machine-readable
+   identifiers would be to transform daily life.^[31]^[32] For instance,
+   instant and ceaseless inventory control would become ubiquitous.^[32] A
+   person's ability to interact with objects could be altered remotely
+   based on immediate or present needs, in accordance with existing
+   end-user agreements.^[24] For example, such technology could grant
+   motion-picture publishers much more control over end-user private
+   devices by remotely enforcing copyright restrictions and digital rights
+   management, so the ability of a customer who bought a Blu-ray disc to
+   watch the movie could become dependent on the copyright holder's
+   decision, similar to Circuit City's failed DIVX.^[citation needed]
+
+   A significant transformation is to extend "things" from the data
+   generated from devices to objects in the physical space. The
+   thought-model for future interconnection environment was proposed in
+   2004.^[33] The model includes the notion of the ternary universe
+   consists of the physical world, virtual world and mental world and a
+   multi-level reference architecture with the nature and devices at the
+   bottom level followed by the level of the Internet, sensor network, and
+   mobile network, and intelligent human-machine communities at the top
+   level, which supports geographically dispersed users to cooperatively
+   accomplish tasks and solve problems by using the network to actively
+   promote the flow of material, energy, techniques, information,
+   knowledge, and services in this environment.^[34] This thought model
+   envisioned the development trend of the Internet of things.
+
+Applications[edit]
+
+   A Nest learning thermostat reporting on energy usage and local weather.
+   A 2012 Internet refrigerator from LG
+
+   The applications for internet connected devices are extensive. Multiple
+   categorizations have been suggested, most of which agree on a
+   separation between consumer, enterprise (business), and infrastructure
+   applications.^[35]^[36] George Osborne, the former British Chancellor
+   of the Exchequer, posited that the Internet of things is the next stage
+   of the information revolution and referenced the inter-connectivity of
+   everything from urban transport to medical devices to household
+   appliances.^[37]
+
+   The ability to network embedded devices with limited CPU, memory and
+   power resources means that IoT finds applications in nearly every
+   field.^[38] Such systems could be in charge of collecting information
+   in settings ranging from natural ecosystems to buildings and
+   factories,^[39] thereby finding applications in fields of environmental
+   sensing and urban planning.^[40]
+
+   Intelligent shopping systems, for example, could monitor specific
+   users' purchasing habits in a store by tracking their specific mobile
+   phones. These users could then be provided with special offers on their
+   favorite products, or even location of items that they need, which
+   their fridge has automatically conveyed to the phone.^[41]^[42]
+   Additional examples of sensing and actuating are reflected in
+   applications that deal with heat, water, electricity and energy
+   management, as well as cruise-assisting transportation
+   systems.^[43]^[44]^[45] Other applications that the Internet of things
+   can provide is enabling extended home security features and home
+   automation.^[46] The concept of an "Internet of living things" has been
+   proposed to describe networks of biological sensors that could use
+   cloud-based analyses to allow users to study DNA or other
+   molecules.^[47]^[48]
+
+Consumer application[edit]
+
+   A growing portion of IoT devices are created for consumer use. Examples
+   of consumer applications include connected car, entertainment, home
+   automation (also known as smart home devices), wearable technology,
+   quantified self, connected health, and appliances such as
+   washer/dryers, robotic vacuums, air purifiers, ovens, or
+   refrigerators/freezers that use Wi-Fi for remote monitoring.^[49]
+   Consumer IoT provides new opportunities for user experience and
+   interfaces.^[citation needed]
+
+   Some consumer applications have been criticized for their lack of
+   redundancy and their inconsistency, leading to a popular parody known
+   as the “Internet of Shit.”^[50] Companies have been criticized for
+   their rush into IoT, creating devices of questionable value,^[51] and
+   not setting up stringent security standards.^[52]
+
+Smart Home[edit]
+
+   IoT devices are a part of the larger concept of home automation, also
+   known as domotics. Large smart home systems utilize a main hub or
+   controller to provide users with a central control for all of their
+   devices. These devices can include lighting, heating and air
+   conditioning, media and security systems.^[53] Ease of usability is the
+   most immediate benefit to connecting these functionalities. Long term
+   benefits can include the ability to create a more environmentally
+   friendly home by automating some functions such as ensuring lights and
+   electronics are turned off. One of the major obstacles to obtaining
+   smart home technology is the high initial cost. ^[54]
+
+Applications[edit]
+
+   One application of smart home is to provide assistance for disabled and
+   elderly individuals. These home systems utilize assistive technology to
+   accommodate an owner's specific disabilities.^[55] Voice control can
+   assist users with sight and mobility limitations while alert systems
+   can be connected directly to Cochlear implants worn by hearing impaired
+   users.^[56] They can also be equipped with additional safety features.
+   These features can include sensors that monitor for medical emergencies
+   such as falls or seizures.^[57] Smart home technology applied in this
+   way can provide users with more freedom and a higher quality of
+   life.^[58]
+
+   A second application of smart home is even more sophisticated. One can
+   guide his or her connected device at home even from far away. If one
+   for example leaves the office, it is possible to tell a connected air
+   conditioner device via smart phone to cool down the house to a certain
+   temperature.
+
+   Another example would be to use smart devices as for examples Amazon`s
+   Alexa to get the most recent and most important news of the day while
+   cutting the vegetables for the meal you are cooking at the moment. In
+   general, Smart Home devices make life easier at home and give us the
+   possibility to make several things at the same time. ^[59]
+
+Enterprise[edit]
+
+   The term "Enterprise IoT," or EIoT, is used to refer to all devices
+   used in business and corporate settings. By 2019, it is estimated the
+   EIoT will account for nearly 40% or 9.1 billion devices.^[35]
+
+Media[edit]
+
+   Media uses of the internet of things is primarily concerned with
+   marketing to and studying consumer habits. Through behavioral targeting
+   these devices collect many actionable points of information about
+   millions of individuals.^[60] Using the profiles built during the
+   targeting process, media producers present display advertising in line
+   with the consumers known habits at a time and location to maximize its
+   effect.^[61] ^[62] Further information is collected by tracking how
+   consumers interact with the content. This is done through conversion
+   tracking, drop off rate, click through rate registration rate and
+   interaction rate. The size of the data often presents challenges as it
+   crosses into the realm of big data. However, benefits gained from the
+   data stored greatly out weighs these challenges.^[63] ^[64]
+
+Infrastructure Management[edit]
+
+   Monitoring and controlling operations of urban and rural
+   infrastructures like bridges, railway tracks, on- and offshore-
+   wind-farms is a key application of the IoT.^[65] The IoT infrastructure
+   can be used for monitoring any events or changes in structural
+   conditions that can compromise safety and increase risk. It can also be
+   used for scheduling repair and maintenance activities in an efficient
+   manner, by coordinating tasks between different service providers and
+   users of these facilities.^[39] IoT devices can also be used to control
+   critical infrastructure like bridges to provide access to ships. Usage
+   of IoT devices for monitoring and operating infrastructure is likely to
+   improve incident management and emergency response coordination, and
+   quality of service, up-times and reduce costs of operation in all
+   infrastructure related areas.^[66] Even areas such as waste management
+   can benefit ^[67] from automation and optimization that could be
+   brought in by the IoT.^[68]
+
+Manufacturing[edit]
+
+   Network control and management of manufacturing equipment, asset and
+   situation management, or manufacturing process control bring the IoT
+   within the realm of industrial applications and smart manufacturing as
+   well.^[69] The IoT intelligent systems enable rapid manufacturing of
+   new products, dynamic response to product demands, and real-time
+   optimization of manufacturing production and supply chain networks, by
+   networking machinery, sensors and control systems together.^[39]
+
+   Digital control systems to automate process controls, operator tools
+   and service information systems to optimize plant safety and security
+   are within the purview of the IoT.^[65] But it also extends itself to
+   asset management via predictive maintenance, statistical evaluation,
+   and measurements to maximize reliability.^[70] Smart industrial
+   management systems can also be integrated with the Smart Grid, thereby
+   enabling real-time energy optimization. Measurements, automated
+   controls, plant optimization, health and safety management, and other
+   functions are provided by a large number of networked sensors.^[39]
+
+   The term industrial Internet of things (IIoT) is often encountered in
+   the manufacturing industries, referring to the industrial subset of the
+   IoT. IIoT in manufacturing could generate so much business value that
+   it will eventually lead to the fourth industrial revolution, so the
+   so-called Industry 4.0. It is estimated that in the future, successful
+   companies will be able to increase their revenue through Internet of
+   things by creating new business models and improve productivity,
+   exploit analytics for innovation, and transform workforce.^[71] The
+   potential of growth by implementing IIoT will generate $12 trillion of
+   global GDP by 2030.^[71]
+   Design architecture of cyber-physical systems-enabled manufacturing
+   system^[72]
+
+   While connectivity and data acquisition are imperative for IIoT, they
+   should not be the purpose, rather the foundation and path to something
+   bigger. Among all the technologies, predictive maintenance is probably
+   a relatively "easier win" since it is applicable to existing assets and
+   management systems. The objective of intelligent maintenance systems is
+   to reduce unexpected downtime and increase productivity. And to realize
+   that alone would generate around up to 30% over the total maintenance
+   costs.^[71] Industrial big data analytics will play a vital role in
+   manufacturing asset predictive maintenance, although that is not the
+   only capability of industrial big data.^[73]^[74] Cyber-physical
+   systems (CPS) is the core technology of industrial big data and it will
+   be an interface between human and the cyber world. Cyber-physical
+   systems can be designed by following the 5C (connection, conversion,
+   cyber, cognition, configuration) architecture,^[72] and it will
+   transform the collected data into actionable information, and
+   eventually interfere with the physical assets to optimize
+   processes.^[citation needed]
+
+   An IoT-enabled intelligent system of such cases was proposed in 2001
+   and later demonstrated in 2014 by the National Science Foundation
+   Industry/University Collaborative Research Center for Intelligent
+   Maintenance Systems (IMS) at the University of Cincinnati on a band saw
+   machine in IMTS 2014 in Chicago.^[75]^[76]^[77] Band saw machines are
+   not necessarily expensive, but the band saw belt expenses are enormous
+   since they degrade much faster. However, without sensing and
+   intelligent analytics, it can be only determined by experience when the
+   band saw belt will actually break. The developed prognostics system
+   will be able to recognize and monitor the degradation of band saw belts
+   even if the condition is changing, advising users when is the best time
+   to replace band saw. This will significantly improve user experience
+   and operator safety and ultimately save on costs.^[77]
+
+Agriculture[edit]
+
+   The IoT contributes significantly towards innovating farming
+   methods.[1] Farming challenges caused by population growth and climate
+   change have made it one of the first industries to utilize the IoT. The
+   integration of wireless sensors with agricultural mobile apps and cloud
+   platforms helps in collecting vital information pertaining to the
+   environmental conditions^[78] – temperature, rainfall, humidity, wind
+   speed, pest infestation, soil humus content or nutrients, besides
+   others – linked with a farmland, can be used to improve and automate
+   farming techniques, take informed decisions to improve quality and
+   quantity, and minimize risks and wastes. The app-based field or crop
+   monitoring also lowers the hassles of managing crops at multiple
+   locations. For example, farmers can now detect which areas have been
+   fertilised (or mistakenly missed), if the land is too dry and predict
+   future yields.
+
+Energy management[edit]
+
+   Integration of sensing and actuation systems, connected to the
+   Internet, is likely to optimize energy consumption as a whole.^[39] It
+   is expected that IoT devices will be integrated into all forms of
+   energy consuming devices (switches, power outlets, bulbs, televisions,
+   etc.) and be able to communicate with the utility supply company in
+   order to effectively balance power generation and energy usage.^[79]
+   Such devices would also offer the opportunity for users to remotely
+   control their devices, or centrally manage them via a cloud-based
+   interface, and enable advanced functions like scheduling (e.g.,
+   remotely powering on or off heating systems, controlling ovens,
+   changing lighting conditions etc.).^[39]
+
+   Besides home-based energy management, the IoT is especially relevant to
+   the Smart Grid since it provides systems to gather and act on energy
+   and power-related information in an automated fashion with the goal to
+   improve the efficiency, reliability, economics, and sustainability of
+   the production and distribution of electricity.^[79] Using advanced
+   metering infrastructure (AMI) devices connected to the Internet
+   backbone, electric utilities can not only collect data from end-user
+   connections but also, manage other distribution automation devices like
+   transformers and reclosers.^[39]
+
+Environmental monitoring[edit]
+
+   Environmental monitoring applications of the IoT typically use sensors
+   to assist in environmental protection^[80] by monitoring air or water
+   quality,^[10] atmospheric or soil conditions,^[81] and can even include
+   areas like monitoring the movements of wildlife and their
+   habitats.^[82] Development of resource-constrained devices connected to
+   the Internet also means that other applications like earthquake or
+   tsunami early-warning systems can also be used by emergency services to
+   provide more effective aid. IoT devices in this application typically
+   span a large geographic area and can also be mobile.^[39] It has been
+   argued that the standardization IoT brings to wireless sensing will
+   revolutionize this area.^[83]
+
+Building and home automation[edit]
+
+   IoT devices can be used to monitor and control the mechanical,
+   electrical and electronic systems used in various types of buildings
+   (e.g., public and private, industrial, institutions, or
+   residential)^[39] in home automation and building automation systems.
+   In this context, three main areas are being covered in literature:^[84]
+     * The integration of the internet with building energy management
+       systems in order to create energy efficient and IOT driven “smart
+       buildings”.^[84]
+     * The possible means of real-time monitoring for reducing energy
+       consumption^[85] and monitoring occupant behaviors.^[84]
+     * The integration of smart devices in the built environment and how
+       they might be used in future applications.^[84]
+
+Metropolitan scale deployments[edit]
+
+   There are several planned or ongoing large-scale deployments of the
+   IoT, to enable better management of cities and systems. For example,
+   Songdo, South Korea, the first of its kind fully equipped and wired
+   smart city, is on near completion. Nearly everything in this city is
+   planned to be wired, connected and turned into a constant stream of
+   data that would be monitored and analyzed by an array of computers with
+   little, or no human intervention.^[citation needed]
+
+   Another application is a currently undergoing project in Santander,
+   Spain. For this deployment, two approaches have been adopted. This city
+   of 180,000 inhabitants, has already seen 18,000 city application
+   downloads for their smartphones. This application is connected to
+   10,000 sensors that enable services like parking search, environmental
+   monitoring, digital city agenda among others. City context information
+   is used in this deployment so as to benefit merchants through a spark
+   deals mechanism based on city behavior that aims at maximizing the
+   impact of each notification.^[86]
+
+   Other examples of large-scale deployments underway include the
+   Sino-Singapore Guangzhou Knowledge City;^[87] work on improving air and
+   water quality, reducing noise pollution, and increasing transportation
+   efficiency in San Jose, California;^[88] and smart traffic management
+   in western Singapore.^[89] French company, Sigfox, commenced building
+   an ultra-narrowband wireless data network in the San Francisco Bay Area
+   in 2014, the first business to achieve such a deployment in the
+   U.S.^[90]^[91] It subsequently announced it would set up a total of
+   4000 base stations to cover a total of 30 cities in the U.S. by the end
+   of 2016, making it the largest IoT network coverage provider in the
+   country thus far.^[92]^[93]
+
+   Another example of a large deployment is the one completed by New York
+   Waterways in New York City to connect all the city's vessels and be
+   able to monitor them live 24/7. The network was designed and engineered
+   by Fluidmesh Networks, a Chicago-based company developing wireless
+   networks for critical applications. The NYWW network is currently
+   providing coverage on the Hudson River, East River, and Upper New York
+   Bay. With the wireless network in place, NY Waterway is able to take
+   control of its fleet and passengers in a way that was not previously
+   possible. New applications can include security, energy and fleet
+   management, digital signage, public Wi-Fi, paperless ticketing and
+   others.^[94]
+
+Other Fields of Application[edit]
+
+Medical and healthcare[edit]
+
+   IoT devices can be used to enable remote health monitoring and
+   emergency notification systems. These health monitoring devices can
+   range from blood pressure and heart rate monitors to advanced devices
+   capable of monitoring specialized implants, such as pacemakers, Fitbit
+   electronic wristbands, or advanced hearing aids.^[39] Some hospitals
+   have begun implementing "smart beds" that can detect when they are
+   occupied and when a patient is attempting to get up. It can also adjust
+   itself to ensure appropriate pressure and support is applied to the
+   patient without the manual interaction of nurses.^[95]
+
+   Specialized sensors can also be equipped within living spaces to
+   monitor the health and general well-being of senior citizens, while
+   also ensuring that proper treatment is being administered and assisting
+   people regain lost mobility via therapy as well.^[96] Other consumer
+   devices to encourage healthy living, such as, connected scales or
+   wearable heart monitors, are also a possibility with the IoT.^[97] More
+   and more end-to-end health monitoring IoT platforms are coming up for
+   antenatal and chronic patients, helping one manage health vitals and
+   recurring medication requirements.^[citation needed]
+
+   The Research & Development Corporation (DEKA), a company that creates
+   prosthetic limbs, has created a battery-powered arm that uses
+   myoelectricity, a device that converts muscle group sensations into
+   motor control. The arm is nicked named Luke Arm after Luke Skywalker
+   (Star Wars).^[98]
+
+Transportation[edit]
+
+   Digital variable speed-limit sign.
+
+   The IoT can assist in the integration of communications, control, and
+   information processing across various transportation systems.
+   Application of the IoT extends to all aspects of transportation systems
+   (i.e. the vehicle, the infrastructure, and the driver or user). Dynamic
+   interaction between these components of a transport system enables
+   inter and intra vehicular communication, smart traffic control, smart
+   parking, electronic toll collection systems, logistic and fleet
+   management, vehicle control, and safety and road assistance.^[39]^[99]
+   In Logistics and Fleet Management for example, The IoT platform can
+   continuously monitor the location and conditions of cargo and assets
+   via wireless sensors and send specific alerts when management
+   exceptions occur (delays, damages, thefts, etc.).
+
+Trends and characteristics[edit]
+
+   Technology roadmap: Internet of things.
+
+   The IoT's major significant trend in recent years is the explosive
+   growth of devices connected and controlled by the internet. ^[100] The
+   wide range of applications for IoT technology mean that the specifics
+   can be very different from one device to the next but there are basic
+   characteristics shared by most.
+
+Intelligence[edit]
+
+   Ambient intelligence and autonomous control are not part of the
+   original concept of the Internet of things. Ambient intelligence and
+   autonomous control do not necessarily require Internet structures,
+   either. However, there is a shift in research to integrate the concepts
+   of the Internet of things and autonomous control, with initial outcomes
+   towards this direction considering objects as the driving force for
+   autonomous IoT.^[citation needed]
+
+   In the future, the Internet of things may be a non-deterministic and
+   open network in which auto-organized or intelligent entities (Web
+   services, SOA components), virtual objects (avatars) will be
+   interoperable and able to act independently (pursuing their own
+   objectives or shared ones) depending on the context, circumstances or
+   environments. Autonomous behavior through the collection and reasoning
+   of context information as well as the objects ability to detect changes
+   in the environment, faults affecting sensors and introduce suitable
+   mitigation measures constitute a major research trend,^[101] clearly
+   needed to provide credibility to the IoT technology. Modern IoT
+   products and solutions in the marketplace use a variety of different
+   technologies to support such context-aware automation but more
+   sophisticated forms of intelligence are requested to permit sensor
+   units to be deployed in real environments.^[citation needed]
+
+Architecture[edit]
+
+   The system will likely be an example of event-driven
+   architecture,^[102] bottom-up made (based on the context of processes
+   and operations, in real-time) and will consider any subsidiary level.
+   Therefore, model driven and functional approaches will coexist with new
+   ones able to treat exceptions and unusual evolution of processes
+   (multi-agent systems, B-ADSc, etc.).^[citation needed]
+
+   In an Internet of Things, the meaning of an event will not necessarily
+   be based on a deterministic or syntactic model but would instead be
+   based on the context of the event itself: this will also be a semantic
+   web.^[103] Consequently, it will not necessarily need common standards
+   that would not be able to address every context or use: some actors
+   (services, components, avatars) will accordingly be self-referenced
+   and, if ever needed, adaptive to existing common standards (predicting
+   everything would be no more than defining a "global finality" for
+   everything that is just not possible with any of the current top-down
+   approaches and standardizations).^[citation needed]
+
+   Building on top of the Internet of things, the web of things is an
+   architecture for the application layer of the Internet of things
+   looking at the convergence of data from IoT devices into Web
+   applications to create innovative use-cases. In order to program and
+   control the flow of information in the Internet of things, a predicted
+   architectural direction is being called BPM Everywhere which is a
+   blending of traditional process management with process mining and
+   special capabilities to automate the control of large numbers of
+   coordinated devices.^[citation needed]
+
+Network architecture[edit]
+
+   ^[104]
+
+   The Internet of things requires huge scalability in the network space
+   to handle the surge of devices. IETF 6LoWPAN would be used to connect
+   devices to IP networks. With billions of devices^[105] being added to
+   the Internet space, IPv6 will play a major role in handling the network
+   layer scalability. IETF's Constrained Application Protocol, ZeroMQ, and
+   MQTT would provide lightweight data transport. "MQ" in "MQTT" came from
+   IBM's MQ Series message queuing product line.^[citation needed]
+
+   Fog computing is a viable alternative to prevent such large burst of
+   data flow through Internet.^[106] The edge devices' computation power
+   can be used to analyse and process data, thus providing easy real time
+   scalability.^[citation needed]
+
+Complexity[edit]
+
+   In semi-open or closed loops (i.e. value chains, whenever a global
+   finality can be settled) IoT will often be considered and studied as a
+   complex system^[107] due to the huge number of different links,
+   interactions between autonomous actors, and its capacity to integrate
+   new actors. At the overall stage (full open loop) it will likely be
+   seen as a chaotic environment (since systems always have finality). As
+   a practical approach, not all elements in the Internet of things run in
+   a global, public space. Subsystems are often implemented to mitigate
+   the risks of privacy, control and reliability. For example, Domestic
+   Robotics (Domotics) running inside a smart home might only share data
+   within and be available via a local network.^[citation needed]
+
+Size considerations[edit]
+
+   The Internet of things would encode 50 to 100 trillion objects, and be
+   able to follow the movement of those objects. Human beings in surveyed
+   urban environments are each surrounded by 1000 to 5000 trackable
+   objects.^[108] In 2015 there were already 83 million smart devices in
+   people`s homes. This number is about to grow up to 193 million devices
+   in 2020 and will for sure go on growing in the near future. ^[109]
+
+Space considerations[edit]
+
+   In the Internet of things, the precise geographic location of a
+   thing—and also the precise geographic dimensions of a thing—will be
+   critical.^[110] Therefore, facts about a thing, such as its location in
+   time and space, have been less critical to track because the person
+   processing the information can decide whether or not that information
+   was important to the action being taken, and if so, add the missing
+   information (or decide to not take the action). (Note that some things
+   in the Internet of things will be sensors, and sensor location is
+   usually important.^[111]) The GeoWeb and Digital Earth are promising
+   applications that become possible when things can become organized and
+   connected by location. However, the challenges that remain include the
+   constraints of variable spatial scales, the need to handle massive
+   amounts of data, and an indexing for fast search and neighbor
+   operations. In the Internet of things, if things are able to take
+   actions on their own initiative, this human-centric mediation role is
+   eliminated. Thus, the time-space context that we as humans take for
+   granted must be given a central role in this information ecosystem.
+   Just as standards play a key role in the Internet and the Web,
+   geospatial standards will play a key role in the Internet of
+   things.^[citation needed]
+
+A Solution to "basket of remotes"[edit]
+
+   Many IoT devices have a potential to take a piece of this market.
+   Jean-Louis Gassée (Apple initial alumni team, and BeOS co-founder) has
+   addressed this topic in an article on Monday Note,^[112] where he
+   predicts that the most likely problem will be what he calls the "basket
+   of remotes" problem, where we'll have hundreds of applications to
+   interface with hundreds of devices that don't share protocols for
+   speaking with one another.^[citation needed]
+
+   There are multiple approaches to solve this problem, one of them called
+   the "predictive interaction",^[113] where cloud or fog based decision
+   makers^[clarification needed] will predict the user's next action and
+   trigger some reaction.^[citation needed]
+
+   For user interaction, new technology leaders are joining forces to
+   create standards for communication between devices. Manufacturers are
+   becoming more conscious of this problem, and many companies have begun
+   releasing their devices with open APIs. Many of these APIs are used by
+   smaller companies looking to take advantage of quick
+   integration.^[citation needed]
+
+Frameworks[edit]
+
+   IoT frameworks might help support the interaction between "things" and
+   allow for more complex structures like distributed computing and the
+   development of distributed applications. Currently, some IoT frameworks
+   seem to focus on real-time data logging solutions, offering some basis
+   to work with many "things" and have them interact. Future developments
+   might lead to specific software-development environments to create the
+   software to work with the hardware used in the Internet of things.
+   Companies are developing technology platforms to provide this type of
+   functionality for the Internet of things. Newer platforms are being
+   developed, which add more intelligence.
+
+   REST is a scalable architecture that allows things to communicate over
+   Hypertext Transfer Protocol and is easily adopted for IoT applications
+   to provide communication from a thing to a central web
+   server.^[citation needed]
+
+Standards and standards organizations[edit]
+
+   [icon]
+   This section needs expansion. You can help by adding to it. (September
+   2016)
+
+   This is a list of technical standards for the IoT, most of which are
+   open standards, and the standards organizations that aspire to
+   successfully setting them.^[citation needed]
+   Short name Long name Standards under development Other notes
+   Auto-ID Labs — Networked RFID (radiofrequency identification) and
+   emerging sensing technologies
+   EPCglobal — Standards for adoption of EPC (Electronic Product Code)
+   technology
+   FDA U.S. Food and Drug Administration UDI (Unique Device
+   Identification) system for unique identifiers for medical devices
+   GS1 — Standards for UIDs (unique identifiers) and RFID of fast-moving
+   consumer goods (consumer packaged goods), health care supplies, and
+   other things Parent organization comprises member organizations such as
+   GS1 US
+   IEEE Institute of Electrical and Electronics Engineers Underlying
+   communication technology standards such as IEEE 802.15.4
+   IETF Internet Engineering Task Force Standards that comprise TCP/IP
+   (the Internet protocol suite)
+   MTConnect Institute — MTConnect is a manufacturing industry standard
+   for data exchange with machine tools and related industrial equipment.
+   It is important to the IIoT subset of the IoT.
+   OCF Open Connectivity Foundation Standards for simple devices using
+   CoAP (Constrained Application Protocol) OCF (Open Connectivity
+   Foundation) supersedes OIC (Open Interconnect Consortium)
+   OMA Open Mobile Alliance OMA DM and OMA LWM2M for IoT device
+   management, as well as GotAPI, which provides a secure framework for
+   IoT applications
+   XSF XMPP Standards Foundation Protocol extensions of XMPP (Extensible
+   Messaging and Presence Protocol), the open standard of instant
+   messaging
+
+Enabling technologies for IoT[edit]
+
+   There are many technologies that enable IoT. Crucial to the field is
+   the network used to communicate between devices of an IoT installation,
+   a role that several wireless or wired technologies may
+   fulfill:^[114]^[115]^[116]^[117]
+
+Addressability[edit]
+
+   The original idea of the Auto-ID Center is based on RFID-tags and
+   unique identification through the Electronic Product Code, however,
+   this has evolved into objects having an IP address or URI.^[citation
+   needed] An alternative view, from the world of the Semantic Web^[118]
+   focuses instead on making all things (not just those electronic, smart,
+   or RFID-enabled) addressable by the existing naming protocols, such as
+   URI. The objects themselves do not converse, but they may now be
+   referred to by other agents, such as powerful centralized servers
+   acting for their human owners.^[citation needed]Integration with the
+   Internet implies that devices will use an IP address as a unique
+   identifier. Due to the limited address space of IPv4 (which allows for
+   4.3 billion unique addresses), objects in the IoT will have to use the
+   next generation of the Internet protocol (IPv6) to scale to the
+   extremely large address space required.^[119]^[120]^[121]
+   Internet-of-things devices additionally will benefit from the stateless
+   address auto-configuration present in IPv6,^[122] as it reduces the
+   configuration overhead on the hosts,^[120] and the IETF 6LoWPAN header
+   compression. To a large extent, the future of the Internet of things
+   will not be possible without the support of IPv6; and consequently, the
+   global adoption of IPv6 in the coming years will be critical for the
+   successful development of the IoT in the future.^[121]
+
+Short-range wireless[edit]
+
+     * Bluetooth mesh networking – Specification providing a mesh
+       networking variant to Bluetooth low energy (BLE) with increased
+       number of nodes and standardized application layer (Models).
+     * Light-Fidelity (Li-Fi) – Wireless communication technology similar
+       to the Wi-Fi standard, but using visible light communication for
+       increased bandwidth.
+     * Near-field communication (NFC) – Communication protocols enabling
+       two electronic devices to communicate within a 4 cm range.
+     * QR codes and barcodes – Machine-readable optical tags that store
+       information about the item to which they are attached.
+     * Radio-frequency identification (RFID) – Technology using
+       electromagnetic fields to read data stored in tags embedded in
+       other items.
+     * Thread – Network protocol based on the IEEE 802.15.4 standard,
+       similar to ZigBee, providing IPv6 addressing.
+     * Transport Layer Security – Network security protocol.
+     * Wi-Fi – Widely used technology for local area networking based on
+       the IEEE 802.11 standard, where devices may communicate through a
+       shared access point.
+     * Wi-Fi Direct – Variant of the Wi-Fi standard for peer-to-peer
+       communication, eliminating the need for an access point.
+     * Z-Wave – Communication protocol providing short-range, low-latency
+       data transfer at rates and power consumption lower than Wi-Fi. Used
+       primarily for home automation.
+     * ZigBee – Communication protocols for personal area networking based
+       on the IEEE 802.15.4 standard, providing low power consumption, low
+       data rate, low cost, and high throughput.
+
+Medium-range wireless[edit]
+
+     * HaLow – Variant of the Wi-Fi standard providing extended range for
+       low-power communication at a lower data rate.
+     * LTE-Advanced – High-speed communication specification for mobile
+       networks. Provides enhancements to the LTE standard with extended
+       coverage, higher throughput, and lower latency.
+
+Long-range wireless[edit]
+
+     * Low-power wide-area networking (LPWAN) – Wireless networks designed
+       to allow long-range communication at a low data rate, reducing
+       power and cost for transmission. Available LPWAN technologies and
+       protocols: LoRaWan, Sigfox, NB-IoT, Weightless.
+     * Very small aperture terminal (VSAT) – Satellite communication
+       technology using small dish antennas for narrowband and broadband
+       data.
+     * Long-range Wi-Fi connectivity
+
+Wired[edit]
+
+     * Ethernet – General purpose networking standard using twisted pair
+       and fiber optic links in conjunction with hubs or switches.
+     * Multimedia over Coax Alliance (MoCA) – Specification enabling
+       whole-home distribution of high definition video and content over
+       existing coaxial cabling.
+     * Power-line communication (PLC) – Communication technology using
+       electrical wiring to carry power and data. Specifications such as
+       HomePlug utilize PLC for networking IoT devices.
+
+Simulation[edit]
+
+   IoT modeling and simulation (and emulation) is typically carried out at
+   the design stage before deployment of the network. Network simulators
+   like OPNET, NetSim and NS2 can be used to simulate IoT
+   networks^[citation needed]. Digital Twins may also be implemented to
+   produce updates on the status and health of an asset, based upon sensor
+   readings integrated with a computational model of the asset.^[123]
+
+Politics and civic engagement[edit]
+
+   Some scholars and activists argue that the IoT can be used to create
+   new models of civic engagement if device networks can be open to user
+   control and inter-operable platforms. Philip N. Howard, a professor and
+   author, writes that political life in both democracies and
+   authoritarian regimes will be shaped by the way the IoT will be used
+   for civic engagement. For that to happen, he argues that any connected
+   device should be able to divulge a list of the "ultimate beneficiaries"
+   of its sensor data and that individual citizens should be able to add
+   new organizations to the beneficiary list. In addition, he argues that
+   civil society groups need to start developing their IoT strategy for
+   making use of data and engaging with the public.^[124]
+
+Government regulation on IoT[edit]
+
+   One of the key drivers of the IoT is data. The success of the idea of
+   connecting devices to make them more efficient is dependent upon access
+   to and storage & processing of data. For this purpose, companies
+   working on IoT collect data from multiple sources and store it in their
+   cloud network for further processing. This leaves the door wide open
+   for privacy and security dangers and single point vulnerability of
+   multiple systems.^[125] The other issues pertain to consumer choice and
+   ownership of data^[126] and how it is used. Presently the regulators
+   have shown more interest in protecting the first three issues
+   identified above.^[citation needed]
+
+   Current regulatory environment:
+
+   A report published by the Federal Trade Commission (FTC) in January
+   2015 made the following three recommendations:^[127]
+     * Data security – At the time of designing IoT companies should
+       ensure that data collection, storage and processing would be secure
+       at all times. Companies should adopt a “defence in depth” approach
+       and encrypt data at each stage.^[128]
+     * Data consent – users should have a choice as to what data they
+       share with IoT companies and the users must be informed if their
+       data gets exposed.
+     * Data minimization – IoT companies should collect only the data they
+       need and retain the collected information only for a limited time.
+
+   However, the FTC stopped at just making recommendations for now.
+   According to an FTC analysis, the existing framework, consisting of the
+   FTC Act, the Fair Credit Reporting Act, and the Children’s Online
+   Privacy Protection Act, along with developing consumer education and
+   business guidance, participation in multi-stakeholder efforts and
+   advocacy to other agencies at the federal, state and local level, is
+   sufficient to protect consumer rights.^[129]
+
+   A resolution passed by the Senate in March 2015, is already being
+   considered by the Congress.^[130] This resolution recognized the need
+   for formulating a National Policy on IoT and the matter of privacy,
+   security and spectrum. Furthermore, to provide an impetus to the IoT
+   ecosystem, in March 2016, a bipartisan group of four Senators proposed
+   a bill, The Developing Innovation and Growing the Internet of Things
+   (DIGIT) Act, to direct the Federal Communications Commission to assess
+   the need for more spectrum to connect IoT devices.
+
+   Several standards for the IoT industry are actually being established
+   relating to automobiles because most concerns arising from use of
+   connected cars apply to healthcare devices as well. In fact, the
+   National Highway Traffic Safety Administration (NHTSA) is preparing
+   cybersecurity guidelines and a database of best practices to make
+   automotive computer systems more secure.^[131]
+
+Criticism and controversies[edit]
+
+Platform fragmentation[edit]
+
+   IoT suffers from platform fragmentation and lack of technical
+   standards^[132]^[133]^[134]^[135]^[136]^[137]^[138] a situation where
+   the variety of IoT devices, in terms of both hardware variations and
+   differences in the software running on them, makes the task of
+   developing applications that work consistently between different
+   inconsistent technology ecosystems hard.^[1] Customers may be hesitant
+   to bet their IoT future on a proprietary software or hardware devices
+   that uses proprietary protocols that may fade or become difficult to
+   customize and interconnect.^[2]
+
+   IoT's amorphous computing nature is also a problem for security, since
+   patches to bugs found in the core operating system often do not reach
+   users of older and lower-price devices.^[139]^[140]^[141] One set of
+   researchers say that the failure of vendors to support older devices
+   with patches and updates leaves more than 87% of active devices
+   vulnerable.^[142]^[143]
+
+Privacy, autonomy, and control[edit]
+
+   Philip N. Howard, a professor and author, writes that the Internet of
+   things offers immense potential for empowering citizens, making
+   government transparent, and broadening information access. Howard
+   cautions, however, that privacy threats are enormous, as is the
+   potential for social control and political manipulation.^[144]
+
+   Concerns about privacy have led many to consider the possibility that
+   big data infrastructures such as the Internet of things and data mining
+   are inherently incompatible with privacy.^[145] Writer Adam Greenfield
+   claims that these technologies are not only an invasion of public space
+   but are also being used to perpetuate normative behavior, citing an
+   instance of billboards with hidden cameras that tracked the
+   demographics of passersby who stopped to read the advertisement.^[146]
+
+   The Internet of Things Council compared the increased prevalence of
+   digital surveillance due to the Internet of things to the conceptual
+   panopticon described by Jeremy Bentham in the 18th Century.^[147] The
+   assertion was defended by the works of French philosophers Michel
+   Foucault and Gilles Deleuze. In Discipline and Punish: The Birth of the
+   Prison Foucault asserts that the panopticon was a central element of
+   the discipline society developed during the Industrial Era.^[148]
+   Foucault also argued that the discipline systems established in
+   factories and school reflected Bentham's vision of panopticism.^[148]
+   In his 1992 paper "Postscripts on the Societies of Control," Deleuze
+   wrote that the discipline society had transitioned into a control
+   society, with the computer replacing the panopticon as an instrument of
+   discipline and control while still maintaining the qualities similar to
+   that of panopticism.^[149]
+
+   The privacy of households could be compromised by solely analyzing
+   smart home network traffic patterns without dissecting the contents of
+   encrypted application data, yet a synthetic packet injection scheme can
+   be used to safely overcome such invasion of privacy.^[150]
+
+   Peter-Paul Verbeek, a professor of philosophy of technology at the
+   University of Twente, Netherlands, writes that technology already
+   influences our moral decision making, which in turn affects human
+   agency, privacy and autonomy. He cautions against viewing technology
+   merely as a human tool and advocates instead to consider it as an
+   active agent.^[151]
+
+   Justin Brookman, of the Center for Democracy and Technology, expressed
+   concern regarding the impact of IoT on consumer privacy, saying that
+   "There are some people in the commercial space who say, 'Oh, big data —
+   well, let's collect everything, keep it around forever, we'll pay for
+   somebody to think about security later.' The question is whether we
+   want to have some sort of policy framework in place to limit
+   that."^[152]
+
+   Tim O'Reilly believes that the way companies sell the IoT devices on
+   consumers are misplaced, disputing the notion that the IoT is about
+   gaining efficiency from putting all kinds of devices online and
+   postulating that "IoT is really about human augmentation. The
+   applications are profoundly different when you have sensors and data
+   driving the decision-making."^[153]
+
+   Editorials at WIRED have also expressed concern, one stating "What
+   you're about to lose is your privacy. Actually, it's worse than that.
+   You aren't just going to lose your privacy, you're going to have to
+   watch the very concept of privacy be rewritten under your nose."^[154]
+
+   The American Civil Liberties Union (ACLU) expressed concern regarding
+   the ability of IoT to erode people's control over their own lives. The
+   ACLU wrote that "There's simply no way to forecast how these immense
+   powers – disproportionately accumulating in the hands of corporations
+   seeking financial advantage and governments craving ever more control –
+   will be used. Chances are big data and the Internet of things will make
+   it harder for us to control our own lives, as we grow increasingly
+   transparent to powerful corporations and government institutions that
+   are becoming more opaque to us."^[155]
+
+   In response to rising concerns about privacy and smart technology, in
+   2007 the British Government stated it would follow formal Privacy by
+   Design principles when implementing their smart metering program. The
+   program would lead to replacement of traditional power meters with
+   smart power meters, which could track and manage energy usage more
+   accurately.^[156] However the British Computer Society is doubtful
+   these principles were ever actually implemented.^[157] In 2009 the
+   Dutch Parliament rejected a similar smart metering program, basing
+   their decision on privacy concerns. The Dutch program later revised and
+   passed in 2011.^[157]
+
+Data storage and analytics[edit]
+
+   A challenge for producers of IoT applications is to clean, process and
+   interpret the vast amount of data which is gathered by the sensors.
+   There is a solution proposed for the analytics of the information
+   referred to as Wireless Sensor Networks.^[158] These networks share
+   data among sensor nodes that are sent to a distributed system for the
+   analytics of the sensory data.^[citation needed]
+
+   Another challenge is the storage of this bulk data. Depending on the
+   application there could be high data acquisition requirements which in
+   turn lead to high storage requirements. Currently the internet is
+   already responsible for 5% of the total energy generated^[158] and this
+   consumption will increase significantly when we start utilizing
+   applications with multiple embedded sensors.^[citation needed]
+
+Security[edit]
+
+   Concerns have been raised that the Internet of things is being
+   developed rapidly without appropriate consideration of the profound
+   security challenges involved^[159] and the regulatory changes that
+   might be necessary.^[160]^[161]
+
+   Most of the technical security issues are similar to those of
+   conventional servers, workstations and smartphones, but the firewall,
+   security update and anti-malware systems used for those are generally
+   unsuitable for the much smaller, less capable, IoT devices.^[citation
+   needed]
+
+   According to the Business Insider Intelligence Survey conducted in the
+   last quarter of 2014, 39% of the respondents said that security is the
+   biggest concern in adopting Internet of things technology.^[162] In
+   particular, as the Internet of things spreads widely, cyber attacks are
+   likely to become an increasingly physical (rather than simply virtual)
+   threat.^[163] In a January 2014 article in Forbes, cyber-security
+   columnist Joseph Steinberg listed many Internet-connected appliances
+   that can already "spy on people in their own homes" including
+   televisions, kitchen appliances,^[164] cameras, and thermostats.^[165]
+   Computer-controlled devices in automobiles such as brakes, engine,
+   locks, hood and trunk releases, horn, heat, and dashboard have been
+   shown to be vulnerable to attackers who have access to the on-board
+   network. In some cases, vehicle computer systems are
+   Internet-connected, allowing them to be exploited remotely.^[166] By
+   2008 security researchers had shown the ability to remotely control
+   pacemakers without authority. Later hackers demonstrated remote control
+   of insulin pumps^[167] and implantable cardioverter
+   defibrillators.^[168] David Pogue wrote^[169] that some recently
+   published reports about hackers remotely controlling certain functions
+   of automobiles were not as serious as one might otherwise guess because
+   of various mitigating circumstances; such as the bug that allowed the
+   hack having been fixed before the report was published, or that the
+   hack required security researchers having physical access to the car
+   prior to the hack to prepare for it.^[citation needed]
+
+   The U.S. National Intelligence Council in an unclassified report
+   maintains that it would be hard to deny "access to networks of sensors
+   and remotely-controlled objects by enemies of the United States,
+   criminals, and mischief makers... An open market for aggregated sensor
+   data could serve the interests of commerce and security no less than it
+   helps criminals and spies identify vulnerable targets. Thus, massively
+   parallel sensor fusion may undermine social cohesion, if it proves to
+   be fundamentally incompatible with Fourth-Amendment guarantees against
+   unreasonable search."^[170] In general, the intelligence community
+   views the Internet of things as a rich source of data.^[171]
+
+   As a response to increasing concerns over security, the Internet of
+   Things Security Foundation (IoTSF) was launched on 23 September 2015.
+   IoTSF has a mission to secure the Internet of things by promoting
+   knowledge and best practice. Its founding board is made from technology
+   providers and telecommunications companies including BT, Vodafone,
+   Imagination Technologies and Pen Test Partners. In addition, large IT
+   companies are continuously developing innovative solutions to ensure
+   the security for IoT devices. As per the estimates from KBV
+   Research,^[172] the overall IoT security market^[173] would grow at
+   27.9% rate during 2016–2022 as a result of growing infrastructural
+   concerns and diversified usage of Internet of things.^[174]^[175]
+
+   In 2016, a distributed denial of service attack powered by Internet of
+   things devices running the Mirai malware took down a DNS provider and
+   major web sites.^[176]
+
+   Security experts view Internet of things as a threat to the traditional
+   Internet.^[177] Some argue that market incentive to secure IoT devices
+   is insufficient and increased governmental regulation is necessary to
+   make the Internet of things secure.^[178]
+
+   The overall understanding of IoT is essential for basic user security.
+   Keeping up with current anti virus software and patching updates will
+   help mitigate cyber attacks.
+
+Design[edit]
+
+   Given widespread recognition of the evolving nature of the design and
+   management of the Internet of things, sustainable and secure deployment
+   of IoT solutions must design for "anarchic scalability."^[179]
+   Application of the concept of anarchic scalability can be extended to
+   physical systems (i.e. controlled real-world objects), by virtue of
+   those systems being designed to account for uncertain management
+   futures. This "hard anarchic scalability" thus provides a pathway
+   forward to fully realize the potential of Internet-of-things solutions
+   by selectively constraining physical systems to allow for all
+   management regimes without risking physical failure.^[citation needed]
+
+   Brown University computer scientist Michael Littman has argued that
+   successful execution of the Internet of things requires consideration
+   of the interface's usability as well as the technology itself. These
+   interfaces need to be not only more user-friendly but also better
+   integrated: "If users need to learn different interfaces for their
+   vacuums, their locks, their sprinklers, their lights, and their
+   coffeemakers, it's tough to say that their lives have been made any
+   easier."^[180]
+
+Environmental sustainability impact[edit]
+
+   This section does not cite any sources. Please help improve this
+   section by adding citations to reliable sources. Unsourced material may
+   be challenged and removed. (November 2015) (Learn how and when to
+   remove this template message)
+
+   A concern regarding Internet-of-things technologies pertains to the
+   environmental impacts of the manufacture, use, and eventual disposal of
+   all these semiconductor-rich devices.^[181] Modern electronics are
+   replete with a wide variety of heavy metals and rare-earth metals, as
+   well as highly toxic synthetic chemicals. This makes them extremely
+   difficult to properly recycle. Electronic components are often
+   incinerated or placed in regular landfills. Furthermore, the human and
+   environmental cost of mining the rare-earth metals that are integral to
+   modern electronic components continues to grow. With production of
+   electronic equipment growing globally yet little of the metals (from
+   end-of-life equipment) are being recovered for reuse, the environmental
+   impacts can be expected to increase.^[citation needed]
+
+   Also, because the concept of Internet of things entails adding
+   electronics to mundane devices (for example, simple light switches),
+   and because the major driver for replacement of electronic components
+   is often technological obsolescence rather than actual failure to
+   function, it is reasonable to expect that items that previously were
+   kept in service for many decades would see an accelerated replacement
+   cycle if they were part of the IoT. For example, a traditional house
+   built with 30 light switches and 30 electrical outlets might stand for
+   50 years, with all those components still original at the end of that
+   period. But a modern house built with the same number of switches and
+   outlets set up for IoT might see each switch and outlet replaced at
+   five-year intervals, in order to keep up to date with technological
+   changes. This translates into a ten-fold increase in waste requiring
+   disposal.^[citation needed]
+
+Intentional obsolescence of devices[edit]
+
+   The Electronic Frontier Foundation has raised concerns that companies
+   can use the technologies necessary to support connected devices to
+   intentionally disable or "brick" their customers' devices via a remote
+   software update or by disabling a service necessary to the operation of
+   the device. In one example, home automation devices sold with the
+   promise of a "Lifetime Subscription" were rendered useless after Nest
+   Labs acquired Revolv and made the decision to shut down the central
+   servers the Revolv devices had used to operate.^[182] As Nest is a
+   company owned by Alphabet (Google's parent company), the EFF argues
+   this sets a "terrible precedent for a company with ambitions to sell
+   self-driving cars, medical devices, and other high-end gadgets that may
+   be essential to a person's livelihood or physical safety."^[183]
+
+   Owners should be free to point their devices to a different server or
+   collaborate on improved software. But such action violates the United
+   States DMCA section 1201, which only has an exemption for "local use".
+   This forces tinkerers who want to keep using their own equipment into a
+   legal grey area. EFF thinks buyers should refuse electronics and
+   software that prioritize the manufacturer's wishes above their
+   own.^[183]
+
+   Examples of post-sale manipulations include Google Nest Revolv,
+   disabled privacy settings on Android, Sony disabling Linux on
+   PlayStation 3, enforced EULA on Wii U.^[183]
+
+Confusing terminology[edit]
+
+   Kevin Lonergan at Information Age, a business-technology magazine, has
+   referred to the terms surrounding IoT as a “terminology zoo”.^[184] The
+   lack of clear terminology is not “useful from a practical point of
+   view” and a “source of confusion for the end user”.^[184] A company
+   operating in the IoT space could be working in anything related to
+   sensor technology, networking, embedded systems, or analytics.^[184]
+   According to Lonergan, the term IoT was coined before smart phones,
+   tablets, and devices as we know them today existed, and there is a long
+   list of terms with varying degrees of overlap and technological
+   convergence: Internet of things, Internet of everything (IoE),
+   industrial Internet, pervasive computing, pervasive sensing, ubiquitous
+   computing, cyber-physical systems (CPS), wireless sensor networks
+   (WSN), smart objects, cooperating objects, machine to machine (M2M),
+   ambient intelligence (AmI), operational technology (OT), and
+   information technology (IT).^[184] Regarding IIoT, an industrial
+   sub-field of IoT, the Industrial Internet Consortium's Vocabulary Task
+   Group has created a "common and reusable vocabulary of terms"^[185] to
+   ensure "consistent terminology"^[185]^[186] across publications issued
+   by the Industrial Internet Consortium. IoT One has created an IoT Terms
+   Database including a New Term Alert^[187] to be notified when a new
+   term is published. As of March 2017, this database aggregates 711
+   IoT-related terms,^[188] however, without any attempts to reduce
+   terminological ambiguity and complexity.^[citation needed]
+
+IoT adoption barriers[edit]
+
+   GE Digital CEO William Ruh speaking about GE's attempts to gain a
+   foothold in the market for IoT services at the first IEEE Computer
+   Society TechIgnite conference.
+
+Lack of interoperability and unclear value propositions[edit]
+
+   Despite a shared belief in the potential of IoT, industry leaders and
+   consumers are facing barriers to adopt IoT technology more widely. Mike
+   Farley argued in Forbes that many IoT solutions either lack
+   interoperability or a clear use case for end-users.^[189]
+
+     “Instead of convincing consumers that they need complex systems to
+     serve needs they don’t have, we should fix real problems people
+     struggle with every day.”^[189]
+
+   Many gadgets in the consumer IoT space have appealed to early adopters,
+   yet failed to demonstrate relevance to ordinary people’s lives.
+
+     “In order to boost sales and drive demand beyond the early adopter
+     set, we need to stop making toys no one cares about and instead work
+     on building simple solutions to real, everyday problems for real
+     people.”^[189]
+
+   A recent study by Ericsson regarding the adoption of IoT among Danish
+   companies, has suggested that many are struggling “to pinpoint exactly
+   where the value of IoT lies for them”.^[190] A company must identify
+   where the value of IoT lies in order to capture it, otherwise
+   non-action is the consequence.^[190] This indicates that a major
+   roadblock to IoT adoption is not technical but analytical in
+   nature.^[citation needed]
+
+Privacy and security concerns[edit]
+
+   According to a recent study by Noura Aleisa and Karen Renaud at the
+   University of Glasgow, "the Internet of things' potential for major
+   privacy invasion is a concern"^[191] with much of research
+   "disproportionally focused on the security concerns of IoT."^[191]
+   Among the "proposed solutions in terms of the techniques they deployed
+   and the extent to which they satisfied core privacy principles",^[191]
+   only very few turned out to be fully satisfactory. Louis Basenese,
+   investment director at Wall Street Daily, has criticized the industry's
+   lack of attention to security issues:
+
+     "Despite high-profile and alarming hacks, device manufacturers
+     remain undeterred, focusing on profitability over security.
+     Consumers need to have ultimate control over collected data,
+     including the option to delete it if they choose...Without privacy
+     assurances, wide-scale consumer adoption simply won't happen."^[192]
+
+   In a post-Snowden world of global surveillance disclosures, consumers
+   take a more active interest in protecting their privacy and demand IoT
+   devices to be screened for potential security vulnerabilities and
+   privacy violations before purchasing them. According to the 2016
+   Accenture Digital Consumer Survey, in which 28000 consumers in 28
+   countries were polled on their use of consumer technology, security
+   “has moved from being a nagging problem to a top barrier as consumers
+   are now choosing to abandon IoT devices and services over security
+   concerns.”^[193] The survey revealed that “out of the consumers aware
+   of hacker attacks and owning or planning to own IoT devices in the next
+   five years, 18 percent decided to terminate the use of the services and
+   related services until they get safety guarantees.”^[193] This suggests
+   that consumers increasingly perceive privacy risks and security
+   concerns to outweigh the value propositions of IoT devices and opt to
+   postpone planned purchases or service subscriptions.^[193]
+
+Traditional governance structures[edit]
+
+   A study issued by Ericsson regarding the adoption of Internet of things
+   among Danish companies identified a "clash between IoT and companies'
+   traditional governance structures, as IoT still presents both
+   uncertainties and a lack of historical precedence."^[190] Among the
+   respondents interviewed, 60 percent stated that they "do not believe
+   they have the organizational capabilities, and three of four do not
+   believe they have the processes needed, to capture the IoT
+   opportunity."^[190] This has led to a need to understand organizational
+   culture in order to facilitate organizational design processes and to
+   test new innovation management practices. A lack of digital leadership
+   in the age of digital transformation has also stifled innovation and
+   IoT adoption to a degree that many companies, in the face of
+   uncertainty, "were waiting for the market dynamics to play out",^[190]
+   or further action in regards to IoT "was pending competitor moves,
+   customer pull, or regulatory requirements."^[190] Some of these
+   companies risk being 'kodaked' – "Kodak was a market leader until
+   digital disruption eclipsed film photography with digital photos"^[194]
+   – failing to "see the disruptive forces affecting their industry"^[195]
+   and "to truly embrace the new business models the disruptive change
+   opens up."^[195] Scott Anthony has written in Harvard Business Review
+   that Kodak "created a digital camera, invested in the technology, and
+   even understood that photos would be shared online"^[195] but
+   ultimately failed to realize that "online photo sharing was the new
+   business, not just a way to expand the printing business."^[195]
+
+See also[edit]
+
+     * Home automation
+     * Web of things
+     * Smart grid
+     * Algorithmic regulation
+     * Cyber-physical system
+     * Cloud manufacturing
+     * Data Distribution Service
+     * Device ecology
+     * MCU (microcontroller unit)
+     * Digital object memory
+     * Indoor positioning system
+     * Open Interconnect Consortium
+     * OpenWSN
+     * 5G
+     * Digital twin
+
+References[edit]
+
+    1. ^ ^a ^b Brown, Eric (13 September 2016). "Who Needs the Internet of
+       Things?". Linux.com. Retrieved 23 October 2016.
+    2. ^ ^a ^b Brown, Eric (20 September 2016). "21 Open Source Projects
+       for IoT". Linux.com. Retrieved 23 October 2016.
+    3. ^ "Internet of Things Global Standards Initiative". ITU. Retrieved
+       26 June 2015.
+    4. ^ Nordrum, Amy (18 August 2016). "Popular Internet of Things
+       Forecast of 50 Billion Devices by 2020 Is Outdated". IEEE.
+    5. ^ "Internet of Things: Science Fiction or Business Fact?" (PDF).
+       Harvard Business Review. November 2014. Retrieved 23 October 2016.
+    6. ^ Vermesan, Ovidiu; Friess, Peter (2013). Internet of Things:
+       Converging Technologies for Smart Environments and Integrated
+       Ecosystems (PDF). Aalborg, Denmark: River Publishers.
+       ISBN 978-87-92982-96-4.
+    7. ^ Santucci, Gérald. "The Internet of Things: Between the Revolution
+       of the Internet and the Metamorphosis of Objects" (PDF). European
+       Commission Community Research and Development Information Service.
+       Retrieved 23 October 2016.
+    8. ^ Mattern, Friedemann; Floerkemeier, Christian. "From the Internet
+       of Computers to the Internet of Things" (PDF). ETH Zurich.
+       Retrieved 23 October 2016.
+    9. ^ Lindner, Tim (13 July 2015). "The Supply Chain: Changing at the
+       Speed of Technology". Connected World. Retrieved 18 September
+       2015.
+   10. ^ ^a ^b "Molluscan eye". Retrieved 26 June 2015.
+   11. ^ Erlich, Yaniv (2015). "A vision for ubiquitous sequencing".
+       Genome Research. 25 (10): 1411–1416. doi:10.1101/gr.191692.115.
+       ISSN 1088-9051. PMC 4579324  Freely accessible . PMID 26430149.
+   12. ^ ^a ^b Wigmore, I. (June 2014). "Internet of Things (IoT)".
+       TechTarget.
+   13. ^ Noto La Diega, Guido; Walden, Ian (1 February 2016). "Contracting
+       for the 'Internet of Things': Looking into the Nest". Queen Mary
+       School of Law Legal Studies Research Paper No. 219/2016.
+       SSRN 2725913  Freely accessible .
+   14. ^ Hendricks, Drew. "The Trouble with the Internet of Things".
+       London Datastore. Greater London Authority. Retrieved 10 August
+       2015.
+   15. ^ Ashton, K. (22 June 2009). "That 'Internet of Things' Thing".
+       Retrieved 9 May 2017.
+   16. ^ "Internet of Things (IoT)". gatewaytechnolabs.com.
+   17. ^ "The "Only" Coke Machine on the Internet". Carnegie Mellon
+       University. Retrieved 10 November 2014.
+   18. ^ "Internet of Things Done Wrong Stifles Innovation".
+       InformationWeek. 7 July 2014. Retrieved 10 November 2014.
+   19. ^ Mattern, Friedemann; Floerkemeier, Christian (2010). "From the
+       Internet of Computers to the Internet of Things" (PDF).
+       Informatik-Spektrum. 33 (2): 107–121.
+       doi:10.1007/s00287-010-0417-7. Retrieved 3 February 2014.
+   20. ^ Weiser, Mark (1991). "The Computer for the 21st Century" (PDF).
+       Scientific American. 265 (3): 94–104. Bibcode:1991SciAm.265c..94W.
+       doi:10.1038/scientificamerican0991-94. Retrieved 5 November 2014.
+   21. ^ Raji, RS (June 1994). "Smart networks for control". IEEE
+       Spectrum.
+   22. ^ Pontin, Jason (29 September 2005). "ETC: Bill Joy's Six Webs".
+       MIT Technology Review. Retrieved 17 November 2013.
+   23. ^ Analyst Anish Gaddam interviewed by Sue Bushell in Computerworld,
+       on 24 July 2000 ("M-commerce key to ubiquitous internet")
+   24. ^ ^a ^b Magrassi, P. (2 May 2002). "Why a Universal RFID
+       Infrastructure Would Be a Good Thing". Gartner research report
+       G00106518.
+   25. ^ "Peter Day's World of Business". BBC World Service. BBC.
+       Retrieved 4 October 2016.
+   26. ^ Magrassi, P.; Berg, T (12 August 2002). "A World of Smart
+       Objects". Gartner research report R-17-2243.
+   27. ^ Commission of the European Communities (18 June 2009). "Internet
+       of Things — An action plan for Europe" (PDF). COM(2009) 278 final.
+   28. ^ Wood, Alex (31 March 2015). "The internet of things is
+       revolutionizing our lives, but standards are a must". The
+       Guardian.
+   29. ^ "From M2M to The Internet of Things: Viewpoints From Europe".
+       Techvibes. 7 July 2011. Archived from the original on 24 October
+       2013.
+   30. ^ Sristava, Lara (16 May 2011). "The Internet of Things – Back to
+       the Future (Presentation)". European Commission Internet of Things
+       Conference in Budapest – via YouTube.
+   31. ^ Magrassi, P.; Panarella, A.; Deighton, N.; Johnson, G. (28
+       September 2001). "Computers to Acquire Control of the Physical
+       World". Gartner research report T-14-0301.
+   32. ^ ^a ^b "The Evolution of Internet of Things". Casaleggio
+       Associati. February 2011. ^[need quotation to verify]
+   33. ^ H. Zhuge, Future Interconnection Environment – Dream, Principle,
+       Challenge and Practice, Keynote at the 5th International Conference
+       on Web-Age Information Management, WAIM 2004: Advances in Web-Age
+       Information Management, 15–17 July 2004, Springer LNCS 3129, pp.
+       13–22.
+   34. ^ H. Zhuge, The Future Interconnection Environment, IEEE Computer,
+       38 (4) (2005) 27–33.
+   35. ^ ^a ^b "The Enterprise Internet of Things Market". Business
+       Insider. 25 February 2015. Retrieved 26 June 2015.
+   36. ^ Perera, C.; Liu, C. H.; Jayawardena, S. (December 2015). "The
+       Emerging Internet of Things Marketplace From an Industrial
+       Perspective: A Survey". IEEE Transactions on Emerging Topics in
+       Computing. 3 (4): 585–598. doi:10.1109/TETC.2015.2390034.
+       ISSN 2168-6750.
+   37. ^ ""Budget 2015: some of the things we've announced"". Retrieved 31
+       March 2015.
+   38. ^ Vongsingthong, S.; Smanchat, S. (2014). "Internet of Things: A
+       review of applications & technologies" (PDF). Suranaree Journal of
+       Science and Technology.
+   39. ^ ^a ^b ^c ^d ^e ^f ^g ^h ^i ^j ^k Ersue, M.; Romascanu, D.;
+       Schoenwaelder, J.; Sehgal, A. (4 July 2014). "Management of
+       Networks with Constrained Devices: Use Cases". IETF Internet
+       Draft.
+   40. ^ Mitchell, Shane; Villa, Nicola; Stewart-Weeks, Martin; Lange,
+       Anne. "The Internet of Everything for Cities: Connecting People,
+       Process, Data, and Things To Improve the 'Livability' of Cities and
+       Communities" (PDF). Cisco Systems. Retrieved 10 July 2014.
+   41. ^ Narayanan, Ajit. "Impact of Internet of Things on the Retail
+       Industry". PCQuest. Cyber Media Ltd. Retrieved 20 May 2014.
+   42. ^ CasCard; Gemalto; Ericsson. "Smart Shopping: spark deals" (PDF).
+       EU FP7 BUTLER Project.
+   43. ^ Kyriazis, D.; Varvarigou, T.; Rossi, A.; White, D.; Cooper, J.
+       (4–7 June 2013). "Sustainable smart city IoT applications: Heat and
+       electricity management & Eco-conscious cruise control for public
+       transportation". IEEE International Symposium and Workshops on a
+       World of Wireless, Mobile and Multimedia Networks (WoWMoM): 1.
+       doi:10.1109/WoWMoM.2013.6583500. ISBN 978-1-4673-5827-9.
+   44. ^ Eggimann, Sven; Mutzner, Lena; Wani, Omar; Mariane Yvonne,
+       Schneider; Spuhler, Dorothee; Beutler, Philipp; Maurer, Max (2017).
+       "The potential of knowing more – a review of data-driven urban
+       water management". Environmental Science & Technology.
+   45. ^ Xie, Xiao-Feng; Wang, Zun-Jing (2017). "Integrated in-vehicle
+       decision support system for driving at signalized intersections: A
+       prototype of smart IoT in transportation". Transportation Research
+       Board (TRB) Annual Meeting, Washington, DC, USA.
+   46. ^ Witkovski, Adriano (2015). "An IdM and Key-based Authentication
+       Method for providing Single Sign-On in IoT" (PDF). Proceedings of
+       the IEEE GLOBECOM: 1. doi:10.1109/GLOCOM.2015.7417597.
+       ISBN 978-1-4799-5952-5.
+   47. ^ Clark, Liat. "Oxford Nanopore: we want to create the internet of
+       living things". Wired UK. Retrieved 8 December 2015.
+   48. ^ "Making your home 'smart', the Indian way". The Times of India.
+       Retrieved 26 June 2015.
+   49. ^ "How IoT's are Changing the Fundamentals of "Retailing"". Trak.in
+       – Indian Business of Tech, Mobile & Startups. 30 August 2016.
+       Retrieved 2 June 2017.
+   50. ^ Franceschi-Bicchierai, Lorenzo. "When the Internet of Things
+       Starts to Feel Like the Internet of Shit". Motherboard. Vice Media
+       Inc. Retrieved 27 June 2016.
+   51. ^ Serebrin, Jacob. "Connected Lab Picks Up Where Xtreme Labs Left
+       Off". Techvibes. Techvibes Inc. Retrieved 27 June 2016.
+   52. ^ Porup, J.M. ""Internet of Things" security is hilariously broken
+       and getting worse". Ars Technica. Condé Nast. Retrieved 27 June
+       2016.
+   53. ^ Kang, Won Min; Moon, Seo Yeon; Park, Jong Hyuk (5 March 2017).
+       ""An enhanced security framework for home appliances in smart
+       home"". Human-centric Computing and Information Sciences. 7 (6).
+       doi:10.1186/s13673-017-0087-4. Retrieved 3 November 2017.
+   54. ^ Harper, Richard (2003). Inside the Smart Home. Springer.
+       ISBN 1-85233-688-9.
+   55. ^ Demiris, G; Hensel, K (2008). ""Technologies for an Aging
+       Society: A Systematic Review of 'Smart Home' Applications"" (PDF).
+       "IMIA Yearbook of Medical Informatics 2008": 33–40. Retrieved 27
+       October 2017.
+   56. ^ Aburukba, Raafat; Al-Ali, A. R.; Kandil, Nourhan; AbuDamis, Diala
+       (10 May 2016). ""Configurable ZigBee-based control system for
+       people with multiple disabilities in smart homes"". IEEE.
+       doi:10.1109/ICCSII.2016.7462435. Retrieved 27 October 2017.
+   57. ^ Mulvenna, Maurice; Hutton, Anton; Martin, Suzanne; Todd, Stephen;
+       Bond, Raymond; Moorhead, Anne (14 December 2017). ""Views of
+       Caregivers on the Ethics of Assistive Technology Used for Home
+       Surveillance of People Living with Dementia"" (PDF). Neuroethics.
+       doi:10.1007/s12152-017-9305-z. Retrieved 27 October 2017.
+   58. ^ Demiris, G; Hensel, K (2008). ""Technologies for an Aging
+       Society: A Systematic Review of 'Smart Home' Applications"" (PDF).
+       "IMIA Yearbook of Medical Informatics 2008": 33–40. Retrieved 27
+       October 2017.
+   59. ^ "How IoT & smart home automation will change the way we live".
+       Business Insider. Retrieved 10 November 2017.
+   60. ^ Meadows-Klue, Danny. "A new era of personal data unlocked in an
+       "Internet of Things"". Digital Strategy Consulting. Retrieved 26
+       January 2015.
+   61. ^ Couldry, Nick; Turow, Joseph (2014). "Advertising, Big Data, and
+       the Clearance of the Public Realm: Marketers' New Approaches to the
+       Content Subsidy". International Journal of Communication. 8:
+       1710–1726.
+   62. ^ Moss, Jamie (20 June 2014). "The internet of things: unlocking
+       the marketing potential". The Guardian. Retrieved 31 March 2015.
+   63. ^ Millman, Rene. "6 real-life examples of IoT disrupting retail".
+       Internet of Business. Retrieved 21 February 2016.
+   64. ^ "Internet of Things". Retrieved 27 September 2017.
+   65. ^ ^a ^b Gubbi, Jayavardhana; Buyya, Rajkumar; Marusic, Slaven;
+       Palaniswami, Marimuthu (24 February 2013). "Internet of Things
+       (IoT): A vision, architectural elements, and future directions".
+       Future Generation Computer Systems. 29 (7): 1645–1660.
+       doi:10.1016/j.future.2013.01.010.
+   66. ^ Chui, Michael; Löffler, Markus; Roberts, Roger. "The Internet of
+       Things". McKinsey Quarterly. McKinsey & Company. Retrieved 10 July
+       2014.
+   67. ^ "Smart Trash". Postscapes. Retrieved 10 July 2014.
+   68. ^ "THE INTERNET OF THINGS (IOT): REVOLUTIONIZED THE WAY WE LIVE!".
+       Postscapes. Retrieved 23 October 2017.
+   69. ^ Severi, S.; Abreu, G.; Sottile, F.; Pastrone, C.; Spirito, M.;
+       Berens, F. (23–26 June 2014). "M2M Technologies: Enablers for a
+       Pervasive Internet of Things". The European Conference on Networks
+       and Communications (EUCNC2014).
+   70. ^ Tan, Lu; Wang, Neng (20–22 August 2010). "Future Internet: The
+       Internet of Things". 3rd International Conference on Advanced
+       Computer Theory and Engineering (ICACTE). 5: 376–380.
+       doi:10.1109/ICACTE.2010.5579543. ISBN 978-1-4244-6539-2.
+   71. ^ ^a ^b ^c Daugherty, Paul; Negm, Walid; Banerjee, Prith; Alter,
+       Allan. "Driving Unconventional Growth through the Industrial
+       Internet of Things" (PDF). Accenture. Retrieved 17 March 2016.
+   72. ^ ^a ^b Lee, Jay; Bagheri, Behrad; Kao, Hung-An (2015). "A
+       cyber-physical systems architecture for industry 4.0-based
+       manufacturing systems". Manufacturing Letters. 3: 18–23.
+       doi:10.1016/j.mfglet.2014.12.001.
+   73. ^ Lee, Jay (2015). Industrial Big Data. China: Mechanical Industry
+       Press. ISBN 978-7-111-50624-9.
+   74. ^ "Industrial Internet Insights Report" (PDF). Accenture. Retrieved
+       17 March 2016.
+   75. ^ "Center for Intelligent Maintenance Systems". IMS Center.
+       Retrieved 8 March 2016.
+   76. ^ Lee, Jay (1 December 2003). "E-manufacturing—fundamental, tools,
+       and transformation". Robotics and Computer-Integrated
+       Manufacturing. Leadership of the Future in Manufacturing. 19 (6):
+       501–507. doi:10.1016/S0736-5845(03)00060-7.
+   77. ^ ^a ^b Lee, Jay (19 November 2014). "Keynote Presentation: Recent
+       Advances and Transformation Direction of PHM". Roadmapping Workshop
+       on Measurement Science for Prognostics and Health Management of
+       Smart Manufacturing Systems Agenda. NIST.
+   78. ^ "ConnectedCrops By Root Info Solutions Heralds The Era Of Smart
+       Farming". Times Internet Ltd. Retrieved 27 June 2017.
+   79. ^ ^a ^b Parello, J.; Claise, B.; Schoening, B.; Quittek, J. (28
+       April 2014). "Energy Management Framework". IETF Internet Draft
+       <draft-ietf-eman-framework-19>.
+   80. ^ Davies, Nicola. "How the Internet of Things will enable 'smart
+       buildings'". Extreme Tech.
+   81. ^ Li, Shixing; Wang, Hong; Xu, Tao; Zhou, Guiping (2011).
+       "Application Study on Internet of Things in Environment Protection
+       Field". Lecture Notes in Electrical Engineering Volume. Lecture
+       Notes in Electrical Engineering. 133: 99–106.
+       doi:10.1007/978-3-642-25992-0_13. ISBN 978-3-642-25991-3.
+   82. ^ "Use case: Sensitive wildlife monitoring". FIT French Project.
+       Retrieved 10 July 2014.
+   83. ^ Hart, Jane K.; Martinez, Kirk (1 May 2015). "Toward an
+       environmental Internet of Things". Earth & Space Science. 2:
+       194–200. doi:10.1002/2014EA000044.
+   84. ^ ^a ^b ^c ^d Haase, J.; Alahmad, M.; Nishi, H.; Ploennigs, J.;
+       Tsang, K. F. (1 July 2016). "The IOT mediated built environment: A
+       brief survey". 2016 IEEE 14th International Conference on
+       Industrial Informatics (INDIN): 1065–1068.
+       doi:10.1109/INDIN.2016.7819322.
+   85. ^ Jussi Karlgren; Lennart Fahlén; Anders Wallberg; Pär Hansson;
+       Olov Ståhl; Jonas Söderberg; Karl-Petter Åkesson (2008). "Socially
+       Intelligent Interfaces for Increased Energy Awareness in the Home".
+       The Internet of Things. Lecture Notes in Computer Science.
+       Springer. 4952. doi:10.1007/978-3-540-78731-0_17.
+       ISBN 978-3-540-78730-3. Retrieved 15 November 2017.
+   86. ^ Rico, Juan (22–24 April 2014). "Going beyond monitoring and
+       actuating in large scale smart cities". NFC & Proximity Solutions –
+       WIMA Monaco.
+   87. ^ "A vision for a city today, a city of vision tomorrow".
+       Sino-Singapore Guangzhou Knowledge City. Retrieved 11 July 2014.
+   88. ^ "San Jose Implements Intel Technology for a Smarter City". Intel
+       Newsroom. Retrieved 11 July 2014.
+   89. ^ "Western Singapore becomes test-bed for smart city solutions".
+       Coconuts Singapore. Retrieved 11 July 2014.
+   90. ^ Lipsky, Jessica. "IoT Clash Over 900 MHz Options". EETimes.
+       Retrieved 15 May 2015.
+   91. ^ Alleven, Monica. "Sigfox launches IoT network in 10 UK cities".
+       Fierce Wireless Tech. Retrieved 13 May 2015.
+   92. ^ Merritt, Rick. "13 Views of IoT World". EETimes. Retrieved 15 May
+       2015.
+   93. ^ Fitchard, Kevin. "Sigfox brings its internet of things network to
+       San Francisco". Gigaom. Retrieved 15 May 2015.
+   94. ^ "STE Security Innovation Awards Honorable Mention: The End of the
+       Disconnect". securityinfowatch.com. Retrieved 12 August 2015.
+   95. ^ "Can we expect the Internet of Things in healthcare?". IoT
+       Agenda. Retrieved 21 November 2016.
+   96. ^ Istepanian, R.; Hu, S.; Philip, N.; Sungoor, A. (2011). "The
+       potential of Internet of m-health Things "m-IoT" for non-invasive
+       glucose level sensing". Annual International Conference of the IEEE
+       Engineering in Medicine and Biology Society (EMBC).
+       doi:10.1109/IEMBS.2011.6091302. ISBN 978-1-4577-1589-1.
+   97. ^ Swan, Melanie (8 November 2012). "Sensor Mania! The Internet of
+       Things, Wearable Computing, Objective Metrics, and the Quantified
+       Self 2.0". Sensor and Actuator Networks. 1 (3): 217–253.
+       doi:10.3390/jsan1030217.
+   98. ^ Hruska, Joel (12 May 2014). "FDA approves the Deka arm, the first
+       commercial mind-controlled prosthetic arm – ExtremeTech".
+       ExtremeTech.
+   99. ^ "Key Applications of the Smart IoT to Transform Transportation".
+       Retrieved 28 October 2017.
+   100. ^ Nordrum, Amy (18 August 2016). "Popular Internet of Things
+       Forecast of 50 Billion Devices by 2020 Is Outdated". IEEE.
+   101. ^ Alippi, C. (2014). Intelligence for Embedded Systems. Springer
+       Verlag. ISBN 978-3-319-05278-6.
+   102. ^ Gautier, Philippe (2007). "RFID et acquisition de données
+       évènementielles : retours d'expérience chez Bénédicta". Systèmes
+       d'Information et Management – revue trimestrielle (in French).
+       ESKA. 12 (2): 94–96. ISBN 978-2-7472-1290-8. ISSN 1260-4984.
+   103. ^ Fayon, David (17 April 2010). "3 questions to Philippe Gautier".
+       i-o-t.org. Retrieved 26 June 2015.
+   104. ^ Pal, Arpan (May–June 2015). "Internet of Things: Making the Hype
+       a Reality" (PDF). IT Pro. IEEE Computer Society. Retrieved 10 April
+       2016.
+   105. ^ "Gartner Says 6.4 Billion Connected "Things" Will Be in Use in
+       2016, Up 30 Percent From 2015". Gartner. 10 November 2015.
+       Retrieved 21 April 2016.
+   106. ^ Reza Arkian, Hamid. "MIST: Fog-based Data Analytics Scheme with
+       Cost-Efficient Resource Provisioning for IoT Crowdsensing
+       Applications". Journal of Network and Computer Applications. 82:
+       152–165. doi:10.1016/j.jnca.2017.01.012.
+   107. ^ Gautier, Philippe; Gonzalez, Laurent (2011). L'Internet des
+       Objets... Internet, mais en mieux (PDF). Foreword by Gérald
+       Santucci (European commission), postword by Daniel Kaplan (FING)
+       and Michel Volle. Paris: AFNOR editions. ISBN 978-2-12-465316-4.
+   108. ^ Waldner, Jean-Baptiste (2007). Nanoinformatique et intelligence
+       ambiante. Inventer l'Ordinateur du XXIeme Siècle. London: Hermes
+       Science. p. 254. ISBN 2-7462-1516-0.
+   109. ^ "How IoT & smart home automation will change the way we live".
+       Business Insider. Retrieved 10 November 2017.
+   110. ^ "OGC SensorThings API standard specification". OGC. Retrieved 15
+       February 2016.
+   111. ^ "OGC Sensor Web Enablement: Overview And High Level
+       Architecture". OGC. Retrieved 15 February 2016.
+   112. ^ "Internet of Things: The "Basket of Remotes" Problem". Monday
+       Note. Retrieved 26 June 2015.
+   113. ^ "Better Business Decisions with Advanced Predictive Analytics".
+       Intel. Retrieved 26 June 2015.
+   114. ^ Want, Roy; Bill N. Schilit, Scott Jenson (2015). "Enabling the
+       Internet of Things". 1. Sponsored by IEEE Computer Society. IEEE.
+       pp. 28–35.
+   115. ^ Al-Fuqaha, A.; Guizani, M.; Mohammadi, M.; Aledhari, M.; Ayyash,
+       M. (1 January 2015). "Internet of Things: A Survey on Enabling
+       Technologies, Protocols, and Applications". IEEE Communications
+       Surveys Tutorials. 17 (4): 2347–2376.
+       doi:10.1109/COMST.2015.2444095. ISSN 1553-877X.
+   116. ^ "The Internet of Things: a jumbled mess or a jumbled mess?". The
+       Register. Retrieved 5 June 2016.
+   117. ^ "Can we talk? Internet of Things vendors face a communications
+       'mess'". Computerworld. Retrieved 5 June 2016.
+   118. ^ Dan Brickley et al., c. 2001
+   119. ^ Waldner, Jean-Baptiste (2008). Nanocomputers and Swarm
+       Intelligence. London: ISTE. pp. 227–231. ISBN 1-84704-002-0.
+   120. ^ ^a ^b Kushalnagar, N.; Montenegro, G.; Schumacher, C. (August
+       2007). IPv6 over Low-Power Wireless Personal Area Networks
+       (6LoWPANs): Overview, Assumptions, Problem Statement, and Goals.
+       IETF. RFC 4919. https://tools.ietf.org/html/rfc4919.
+   121. ^ ^a ^b Sun, Charles C. (1 May 2014). "Stop using Internet
+       Protocol Version 4!". Computerworld.
+   122. ^ Thomson, S.; Narten, T.; Jinmei, T. (September 2007). IPv6
+       Stateless Address Autoconfiguration. IETF. RFC 4862.
+       https://tools.ietf.org/html/rfc4862.
+   123. ^ Bantégnie, Eric. "Creating a Digital Twin of a Pump". Ansys
+       Blog. Retrieved 27 June 2017.
+   124. ^ Howard, Philip N. (1 June 2015). "The Internet of Things is
+       Posed to Change Democracy Itself". Politico. Retrieved 8 August
+       2017.
+   125. ^ Thompson, Kirsten; Mattalo, Brandon (24 November 2015). "The
+       Internet of Things: Guidance, Regulation and the Canadian
+       Approach". CyberLex. Retrieved 23 October 2016.
+   126. ^ "The Question of Who Owns the Data Is About to Get a Lot
+       Trickier". Fortune. 6 April 2016. Retrieved 23 October 2016.
+   127. ^ "The 'Internet of Things': Legal Challenges in an
+       Ultra-connected World". Mason Hayes & Curran. 22 January 2016.
+       Retrieved 23 October 2016.
+   128. ^ Brown, Ian (2015). "Regulation and the Internet of Things"
+       (PDF). Oxford Internet Institute. Retrieved 23 October 2016.
+   129. ^ "FTC Report on Internet of Things Urges Companies to Adopt Best
+       Practices to Address Consumer Privacy and Security Risks". Federal
+       Trade Commission. 27 January 2015. Retrieved 23 October 2016.
+   130. ^ Lawson, Stephen (2 March 2016). "IoT users could win with a new
+       bill in the US Senate". MIS-Asia. Retrieved 23 October 2016.
+   131. ^ Pittman, F. Paul (2 February 2016). "Legal Developments in
+       Connected Car Arena Provide Glimpse of Privacy and Data Security
+       Regulation in Internet of Things". Lexology. Retrieved 23 October
+       2016.
+   132. ^ Wieland, Ken (25 February 2016). "IoT experts fret over
+       fragmentation". Mobile World.
+   133. ^ Wallace, Michael (19 February 2016). "Fragmentation is the enemy
+       of the Internet of Things". Qualcomm.com.
+   134. ^ Bauer, Harald; Patel, Mark; Veira, Jan (October 2015). "Internet
+       of Things: Opportunities and challenges for semiconductor
+       companies". McKinsey & Co.
+   135. ^ Ardiri, Aaron (8 July 2014). "Will fragmentation of standards
+       only hinder the true potential of the IoT industry?".
+       evothings.com.
+   136. ^ "IOT Brings Fragmentation in Platform" (PDF). arm.com.
+   137. ^ Raggett, Dave (27 April 2016). "Countering Fragmentation with
+       the Web of Things: Interoperability across IoT platforms" (PDF).
+       W3C.
+   138. ^ Kovach, Steve (30 July 2013). "Android Fragmentation Report".
+       Business Insider. Retrieved 19 October 2013.
+   139. ^ Piedad, Floyd N. "Will Android fragmentation spoil its IoT
+       appeal?". TechBeacon.
+   140. ^ Franceschi-Bicchierai, Lorenzo. "Goodbye, Android". Motherboard.
+       Vice. Retrieved 2 August 2015.
+   141. ^ Kingsley-Hughes, Adrian. "The toxic hellstew survival guide".
+       ZDnet. Retrieved 2 August 2015.
+   142. ^ Tung, Liam (13 October 2015). "Android security a 'market for
+       lemons' that leaves 87 percent vulnerable". ZDNet. Retrieved 14
+       October 2015.
+   143. ^ Thomas, Daniel R.; Beresford, Alastair R.; Rice, Andrew.
+       "Security Metrics for the Android Ecosystem" (PDF). Computer
+       Laboratory, University of Cambridge. doi:10.1145/2808117.2808118.
+       Retrieved 14 October 2015.
+   144. ^ Howard, Philip N. (2015). Pax Technica: How the internet of
+       things May Set Us Free, Or Lock Us Up. New Haven, CT: Yale
+       University Press. ISBN 978-0-30019-947-5.
+   145. ^ McEwan, Adrian (2014). "Designing the Internet of Things" (PDF).
+       Retrieved 1 June 2016.
+   146. ^ Reddington, Clare. "Connected Things and Civic
+       Responsibilities". Storify. Retrieved 20 May 2016.
+   147. ^ "Panopticon as a metaphor for the internet of things" (PDF). The
+       Council of the Internet of Things. Retrieved 6 June 2016.
+   148. ^ ^a ^b "Foucault" (PDF). UCLA.
+   149. ^ "Deleuze – 1992 – Postscript on the Societies of Control" (PDF).
+       UCLA.
+   150. ^ Yoshigoe, Kenji; Dai, Wei; Abramson, Melissa; Jacobs, Alexander
+       (2015). "Overcoming Invasion of Privacy in Smart Home Environment
+       with Synthetic Packet Injection". TRON Symposium (TRONSHOW): 1.
+       doi:10.1109/TRONSHOW.2014.7396875. ISBN 978-4-8936-2317-1.
+   151. ^ Verbeek, Peter-Paul (2011). Moralizing Technology: Understanding
+       and Designing the Morality of Things. Chicago: The University of
+       Chicago Press. ISBN 978-0-22685-291-1.
+   152. ^ Cardwell, Diane (18 February 2014). "At Newark Airport, the
+       Lights Are On, and They're Watching You". The New York Times.
+   153. ^ Hardy, Quentin (4 February 2015). "Tim O'Reilly Explains the
+       Internet of Things". The New York Times Bits. The New York Times.
+       Retrieved 18 May 2015.
+   154. ^ Webb, Geoff (5 February 2015). "Say Goodbye to Privacy". WIRED.
+       Retrieved 15 February 2015.
+   155. ^ Crump, Catherine; Harwood, Matthew (25 March 2014). "The Net
+       Closes Around Us". TomDispatch.
+   156. ^ Brown, Ian (12 February 2013). "Britain's Smart Meter Programme:
+       A Case Study in Privacy by Design". International Review of Law,
+       Computers & Technology. 28: 172–184.
+       doi:10.1080/13600869.2013.801580. SSRN 2215646  Freely accessible .
+       Retrieved 29 May 2017.
+   157. ^ ^a ^b "The Societal Impact of the Internet of Things" (PDF).
+       British Computer Society. 14 February 2013. Retrieved 23 October
+       2016.
+   158. ^ ^a ^b Gubbi, Jayavardhana; Buyya, Rajkumar; Marusic, Slaven;
+       Palaniswami, Marimuthu (1 September 2013). "Internet of Things
+       (IoT): A vision, architectural elements, and future directions".
+       Future Generation Computer Systems. Including Special sections:
+       Cyber-enabled Distributed Computing for Ubiquitous Cloud and
+       Network Services & Cloud Computing and Scientific Applications —
+       Big Data, Scalable Analytics, and Beyond. 29 (7): 1645–1660.
+       doi:10.1016/j.future.2013.01.010.
+   159. ^ Singh, Jatinder; Pasquier, Thomas; Bacon, Jean; Ko, Hajoon;
+       Eyers, David (2015). "Twenty Cloud Security Considerations for
+       Supporting the Internet of Things". IEEE Internet of Things
+       Journal. 3 (3): 1. doi:10.1109/JIOT.2015.2460333.
+   160. ^ Clearfield, Chris. "Why The FTC Can't Regulate The Internet Of
+       Things". Forbes. Retrieved 26 June 2015.
+   161. ^ Feamster, Nick (18 February 2017). "Mitigating the Increasing
+       Risks of an Insecure Internet of Things". Freedom to Tinker.
+       Retrieved 8 August 2017.
+   162. ^ "We Asked Executives About The Internet Of Things And Their
+       Answers Reveal That Security Remains A Huge Concern". Business
+       Insider. Retrieved 26 June 2015.
+   163. ^ Clearfield, Christopher (26 June 2013). "Rethinking Security for
+       the Internet of Things". Harvard Business Review Blog.
+   164. ^ A. Witkovski; A. O. Santin; J. E. Marynowski; V. Abreu Jr.
+       (December 2016). "An IdM and Key-based Authentication Method for
+       providing Single Sign-On in IoT" (PDF). IEEE Globecom.
+   165. ^ Steinberg, Joseph (27 January 2014). "These Devices May Be
+       Spying On You (Even In Your Own Home)". Forbes. Retrieved 27 May
+       2014.
+   166. ^ Greenberg, Andy (21 July 2015). "Hackers Remotely Kill a Jeep on
+       the Highway—With Me in It". Wired. Retrieved 21 July 2015.
+   167. ^ Scientific American, April 2015, p.68.
+   168. ^ Loukas, George (June 2015). Cyber-Physical Attacks A growing
+       invisible threat. Oxford, UK: Butterworh-Heinemann (Elsevier).
+       p. 65. ISBN 9780128012901.
+   169. ^ Scientific American, November 2015, p.30.
+   170. ^ "Disruptive Technologies Global Trends 2025" (PDF). National
+       Intelligence Council (NIC). April 2008. p. 27.
+   171. ^ Ackerman, Spencer (15 March 2012). "CIA Chief: We'll Spy on You
+       Through Your Dishwasher". WIRED. Retrieved 26 June 2015.
+   172. ^ "The Step Towards Innovation".
+   173. ^ "Global IoT Security Market to reach a market size of $29.2
+       billion by 2022".
+   174. ^ Ward, Mark (23 September 2015). "Smart devices to get security
+       tune-up". BBC News.
+   175. ^ "Executive Steering Board". IoT Security Foundation.
+   176. ^ Woolf, Nicky (26 October 2016). "DDoS attack that disrupted
+       internet was largest of its kind in history, experts say". The
+       Guardian.
+   177. ^ Schneier, Bruce (6 October 2016). "We Need to Save the Internet
+       from the Internet of Things". Motherboard.
+   178. ^ Schneier, Bruce (1 February 2017). "Security and the Internet of
+       Things".
+   179. ^ Fielding, Roy Thomas (2000). "Architectural Styles and the
+       Design of Network-based Software Architectures" (PDF). University
+       Of California, Irvine.
+   180. ^ Littman, Michael; Kortchmar, Samuel. "The Path To A Programmable
+       World". Footnote. Retrieved 14 June 2014.
+   181. ^ Finley, Klint (6 May 2014). "The Internet of Things Could Drown
+       Our Environment in Gadgets". Wired.
+   182. ^ Gilbert, Arlo (3 April 2016). "The time that Tony Fadell sold me
+       a container of hummus". Retrieved 7 April 2016.
+   183. ^ ^a ^b ^c Walsh, Kit (5 April 2016). "Nest Reminds Customers That
+       Ownership Isn't What It Used to Be". Electronic Frontier
+       Foundation. Retrieved 7 April 2016.
+   184. ^ ^a ^b ^c ^d "Taming the IoT terminology zoo: what does it all
+       mean?". Information Age. Vitesse Media Plc. Retrieved 14 March
+       2017.
+   185. ^ ^a ^b "Technology Working Group". The Industrial Internet
+       Consortium. Retrieved 21 March 2017.
+   186. ^ "Vocabulary Technical Report". The Industrial Internet
+       Consortium. Retrieved 21 March 2017.
+   187. ^ "Acceleration Sensing". IoT One. Retrieved 21 March 2017.
+   188. ^ "IoT Terms Database". IoT One. Retrieved 21 March 2017.
+   189. ^ ^a ^b ^c "Why The Consumer Internet Of Things Is Stalling".
+       Forbes. Retrieved 24 March 2017.
+   190. ^ ^a ^b ^c ^d ^e ^f "Every. Thing. Connected. A study of the
+       adoption of 'Internet of Things' among Danish companies" (PDF).
+       Ericsson. Retrieved 28 March 2017.
+   191. ^ ^a ^b ^c "Privacy of the Internet of Things: A Systematic
+       Literature Review (Extended Discussion)" (PDF). Retrieved 27 March
+       2017.
+   192. ^ Basenese, Louis. "The Best Play on the Internet of Things
+       Trend". Wall Street Daily. Wall Street Daily. Retrieved 28 March
+       2017.
+   193. ^ ^a ^b ^c "Igniting Growth in Consumer Technology" (PDF).
+       Accenture. Retrieved 27 March 2017.
+   194. ^ Yarmoluk, Dan. "5 Barriers to IoT Adoption & How to Overcome
+       Them". ATEK Access Technologies. Retrieved 30 March 2017.
+   195. ^ ^a ^b ^c ^d Anthony, Scott. "Disruptive Innovation: Kodak's
+       Downfall Wasn't About Technology". Harvard Business Review. Harvard
+       Business Publishing. Retrieved 30 March 2017.
+
+Bibliography[edit]
+
+   This article needs attention from an expert on the subject. The
+   specific problem is: This list needs to be de-spammed and trimmed down
+   to the three most essential books on this topic only. Consider
+   associating this request with a WikiProject. (September 2016)
+     * Chaouchi, Hakima. The Internet of Things. London: Wiley-ISTE, 2010.
+     * Chabanne, Herve, Pascal Urien, and Jean-Ferdinand Susini. RFID and
+       the Internet of Things. London: ISTE, 2011.
+     * Hersent, Olivier, David Boswarthick and Omar Elloumi. The Internet
+       of Things: Key Applications and Protocols. Chichester, West Sussex:
+       Wiley, 2012.
+     * Pfister, Cuno. Getting Started with the Internet of Things.
+       Sebastapool, Calif: O'Reilly Media, Inc., 2011.
+     * Uckelmann, Dieter, Mark Harrison and Florian Michahelles.
+       Architecting the Internet of Things. Berlin: Springer, 2011.
+     * Weber, Rolf H., and Romana Weber. Internet of Things: Legal
+       Perspectives. Berlin: Springer, 2010.
+     * Zhou, Honbo. The Internet of Things in the Cloud: A Middleware
+       Perspective. Boca Raton: CRC Press, Taylor & Francis Group, 2013.
+
+External links[edit]
+
+   Wikimedia Commons has media related to Internet of things.
+     * The IoT Council
+     * IoT Handbook published by NEMA
+
+     * v
+     * t
+     * e
+
+   Ambient intelligence
+   Concepts
+     * Context awareness
+     * Internet of Things
+     * Object hyperlinking
+     * Profiling
+     * Spime
+     * Supranet
+     * Ubiquitous computing
+     * Web of Things
+     * Wireless sensor networks
+
+   Technologies
+     * 6LoWPAN
+     * ANT+
+     * DASH7
+     * IEEE 802.15.4
+     * Internet 0
+     * Machine to machine
+     * Radio-frequency identification
+     * Smartdust
+     * Tera-play
+     * XBee
+
+   Platforms
+     * Arduino
+     * Contiki
+     * Electric Imp
+     * Gadgeteer
+     * ioBridge
+     * Netduino
+     * Raspberry Pi
+     * TinyOS
+     * Wiring
+     * Xively
+     * NodeMCU
+
+   Applications
+     * Ambient device
+     * CeNSE
+     * Connected car
+     * Home automation
+     * HomeOS
+     * Internet refrigerator
+     * Nabaztag
+     * Smart city
+     * Smart TV
+     * Smarter Planet
+
+   Pioneers
+     * Kevin Ashton
+     * Gaetano Borriello
+     * Adam Dunkels
+     * Stefano Marzano
+     * Don Norman
+     * Roel Pieper
+     * Josef Preishuber-Pflügl
+     * John Seely Brown
+     * Bruce Sterling
+     * Mark Weiser
+
+   Other
+     * Ambient Devices
+     * AmbieSense
+     * Ebbits project
+     * IPSO Alliance
+
+     * v
+     * t
+     * e
+
+   Embedded systems
+   General terms
+     * Embedded software
+     * Original equipment manufacturer (OEM)
+     * Embedded database
+     * Embedded hypervisor
+     * Consumer electronics
+     * Microcontroller
+     * ASIC/FPGA/SoC
+     * Memory footprint
+     * Single-board computer
+     * IoT
+     * Board support package
+     * Cross compiler
+     * Embedded OS
+     * bootloader
+
+   Firmware and controls
+     * Custom firmware
+     * Rooting (Android OS)
+     * iOS jailbreaking
+     * PlayStation 3 Jailbreak
+     * Closed platform
+     * Vendor lock-in
+     * Defective by Design
+     * Hacking of consumer electronics
+     * Homebrew (video games)
+     * Crippleware
+
+   Software libraries
+     * uClibc
+     * dietlibc
+     * Embedded GLIBC
+     * musl
+
+   Development tools
+     * Bitbake
+     * Buildroot
+     * BusyBox
+     * Yocto Project
+     * Almquist shell
+     * Stand-alone shell
+     * OpenEmbedded
+
+   Operating systems
+     * Linux on embedded systems
+     * Linux for mobile devices
+     * Lightweight Linux
+     * Windows IoT/Win CE
+     * Real-time operating system
+
+   Programming languages
+     * Ada
+     * Assembly language
+     * CAPL
+     * Embedded C
+     * MISRA C
+     * nesC
+     * Embedded C++
+     * Embedded Java
+
+     * Lightweight browsers
+     * Open-source computing hardware
+     * Open-source robotics
+
+   Authority control
+     * GND: 7713781-4
+
+   Retrieved from
+   "https://en.wikipedia.org/w/index.php?title=Internet_of_things&oldid=81
+   0655608"
+   Categories:
+     * Internet of things
+     * Ambient intelligence
+     * Emerging technologies
+
+   Hidden categories:
+     * Wikipedia articles needing factual verification from August 2014
+     * CS1 French-language sources (fr)
+     * Use dmy dates from November 2017
+     * Articles needing additional references from May 2017
+     * All articles needing additional references
+     * Articles needing expert attention with no reason or talk parameter
+     * Articles needing unspecified expert attention
+     * Articles needing expert attention from May 2017
+     * All articles needing expert attention
+     * Articles containing potentially dated statements from 2016
+     * All articles containing potentially dated statements
+     * All articles with vague or ambiguous time
+     * Vague or ambiguous time from August 2014
+     * All articles with unsourced statements
+     * Articles with unsourced statements from May 2017
+     * Articles with unsourced statements from July 2014
+     * Articles with unsourced statements from March 2016
+     * Articles with unsourced statements from February 2016
+     * Wikipedia articles needing clarification from July 2014
+     * Articles to be expanded from September 2016
+     * All articles to be expanded
+     * Articles using small message boxes
+     * Articles with unsourced statements from April 2017
+     * Articles needing additional references from November 2015
+     * Articles needing expert attention from September 2016
+     * Wikipedia articles with GND identifiers
+
+Navigation menu
+
+Personal tools
+
+     * Not logged in
+     * Talk
+     * Contributions
+     * Create account
+     * Log in
+
+Namespaces
+
+     * Article
+     * Talk
+
+Variants
+
+Views
+
+     * Read
+     * Edit
+     * View history
+
+More
+
+Search
+
+   ____________________ Search Go
+
+Navigation
+
+     * Main page
+     * Contents
+     * Featured content
+     * Current events
+     * Random article
+     * Donate to Wikipedia
+     * Wikipedia store
+
+Interaction
+
+     * Help
+     * About Wikipedia
+     * Community portal
+     * Recent changes
+     * Contact page
+
+Tools
+
+     * What links here
+     * Related changes
+     * Upload file
+     * Special pages
+     * Permanent link
+     * Page information
+     * Wikidata item
+     * Cite this page
+
+Print/export
+
+     * Create a book
+     * Download as PDF
+     * Printable version
+
+In other projects
+
+     * Wikimedia Commons
+
+Languages
+
+     * Afrikaans
+     * العربية
+     * বাংলা
+     * Беларуская
+     * Български
+     * Bosanski
+     * Català
+     * Čeština
+     * Cymraeg
+     * Dansk
+     * Deutsch
+     * Eesti
+     * Español
+     * Euskara
+     * فارسی
+     * Français
+     * Galego
+     * 한국어
+     * Հայերեն
+     * हिन्दी
+     * Hrvatski
+     * Bahasa Indonesia
+     * Italiano
+     * עברית
+     * Latviešu
+     * Lumbaart
+     * Nederlands
+     * 日本語
+     * Norsk
+     * Polski
+     * Português
+     * Română
+     * Русский
+     * Simple English
+     * Slovenčina
+     * Slovenščina
+     * Српски / srpski
+     * Suomi
+     * Svenska
+     * தமிழ்
+     * ไทย
+     * Türkçe
+     * Українська
+     * Tiếng Việt
+     * 中文
+
+   Edit links
+
+     * This page was last edited on 16 November 2017, at 16:41.
+     * Text is available under the Creative Commons Attribution-ShareAlike
+       License; additional terms may apply. By using this site, you agree
+       to the Terms of Use and Privacy Policy. Wikipedia® is a registered
+       trademark of the Wikimedia Foundation, Inc., a non-profit
+       organization.
+
+     * Privacy policy
+     * About Wikipedia
+     * Disclaimers
+     * Contact Wikipedia
+     * Developers
+     * Cookie statement
+     * Mobile view
+
+     * Wikimedia Foundation
+     * Powered by MediaWiki

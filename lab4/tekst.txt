@@ -1,0 +1,3 @@
+To jest plik tekstowy do testowania polecenia grep w systemie linux. 
+
+
